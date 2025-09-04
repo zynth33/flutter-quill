@@ -108,5 +108,38 @@
   "searchSettings": "Configuració de cerca",
   "cut": "Talla",
   "paste": "Enganxa",
-  "insertTable": "Insereix taula"
+  "insertTable": "Insereix taula",
+  "insertVideo": "Insereix vídeo",
+  "errorUnexpectedSavingImage": "S'ha produït un error inesperat en desar la imatge. Torna-ho a provar.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Imatge desada a la teva galeria.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Imatge desada correctament.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Imatge descarregada correctament.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Galeria Oberta",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Obre la ubicació del fitxer",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Obre el fitxer",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "No s'ha pogut desar la imatge perquè faltaven permisos.",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

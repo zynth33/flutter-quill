@@ -11,7 +11,7 @@
   "save": "Kayıt Et",
   "zoom": "Yakınlaştır",
   "saved": "Kaydedildi",
-  "text": "Text",
+  "text": "Metin",
   "resize": "Yeniden Boyutlandır",
   "width": "Genişlik",
   "height": "Yükseklik",
@@ -34,16 +34,27 @@
   "italic": "İtalik",
   "underline": "Altı Çizili",
   "strikeThrough": "Üsti Çizili",
-  "inlineCode": "Inline code",
+  "inlineCode": "Satır içi kod",
   "fontColor": "Yazı Rengi",
   "backgroundColor": "Vurgu Rengi",
   "clearFormat": "Formatı Temizle",
   "alignLeft": "Sola Hizala",
   "alignCenter": "Ortaya Hizala",
   "alignRight": "Sağa Hizala",
+  "alignJustify": "Yasla",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Kenarlara Hizala",
   "textDirection": "Metin Yönü",
   "headerStyle": "Başlık Stili",
+  "normal": "Normal",
+  "heading1": "Başlık 1",
+  "heading2": "Başlık 2",
+  "heading3": "Başlık 3",
+  "heading4": "Başlık 4",
+  "heading5": "Başlık 5",
+  "heading6": "Başlık 6",
   "numberedList": "Numaralı Liste",
   "bulletList": "Madde Listesi",
   "checkedList": "Kontrol Listesi",
@@ -57,35 +68,36 @@
   "enterMedia": "Medya Giriniz",
   "edit": "Düzenle",
   "apply": "Uygula",
-  "findText": "Find text",
-  "moveToPreviousOccurrence": "Move to previous occurrence",
-  "moveToNextOccurrence": "Move to next occurrence",
-  "savedUsingTheNetwork": "Saved using the network",
-  "savedUsingLocalStorage": "Saved using the local storage",
-  "errorWhileSavingImage": "Error while saving image",
-  "pleaseEnterTextForYourLink": "e.g., 'Learn more'",
-  "pleaseEnterTheLinkURL": "e.g., 'https://example.com'",
-  "pleaseEnterAValidImageURL": "Please enter a valid image URL",
-  "hex": "Hex",
+  "hex": "Altıgen",
   "material": "Malzeme",
   "color": "Renk",
   "lineheight": "Satır yüksekliği",
+  "findText": "Metni bul",
+  "moveToPreviousOccurrence": "Önceki oluşuma geç",
+  "moveToNextOccurrence": "Bir sonraki olaya geç",
+  "savedUsingTheNetwork": "Ağ kullanılarak kaydedildi",
+  "savedUsingLocalStorage": "Yerel depolama kullanılarak kaydedildi",
+  "theImageHasBeenSavedAt": "Resim şu adreste kaydedildi: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
+  "errorWhileSavingImage": "Görüntü kaydedilirken hata oluştu",
+  "pleaseEnterTextForYourLink": "e.g., 'Learn more'",
+  "pleaseEnterTheLinkURL": "e.g., 'https://example.com'",
+  "pleaseEnterAValidImageURL": "Lütfen geçerli bir resim URL'si girin",
   "pleaseEnterAValidVideoURL": "Lütfen geçerli bir video URL'si girin",
   "photo": "Fotoğraf",
   "image": "Görüntü",
   "caseSensitivityAndWholeWordSearch": "Büyük/küçük harf hassasiyeti ve tam kelime arama",
-  "insertImage": "Görüntü ekle",
-  "alignJustify": "Yasla",
-  "normal": "Normal",
-  "heading1": "Başlık 1",
-  "heading2": "Başlık 2",
-  "heading3": "Başlık 3",
-  "heading4": "Başlık 4",
-  "heading5": "Başlık 5",
-  "heading6": "Başlık 6",
-  "theImageHasBeenSavedAt": "Resim şu adreste kaydedildi: {imagePath}",
   "caseSensitive": "Büyük/küçük harf duyarlı",
   "wholeWord": "Tam kelime",
+  "insertImage": "Görüntü ekle",
   "pickAPhotoFromYourGallery": "Galeriğinizden fotoğraf seçin",
   "takeAPhotoUsingYourCamera": "Kameranızla fotoğraf çekin",
   "pasteAPhotoUsingALink": "Bir bağlantı kullanarak fotoğraf yapıştırın",
@@ -96,5 +108,38 @@
   "searchSettings": "Arama ayarları",
   "cut": "Kes",
   "paste": "Yapıştır",
-  "insertTable": "Tablo ekle"
+  "insertTable": "Tablo ekle",
+  "insertVideo": "Video ekle",
+  "errorUnexpectedSavingImage": "Görüntü kaydedilirken beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Resim galerinize kaydedildi.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Resim başarıyla kaydedildi.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Resim başarıyla indirildi.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Açık Galeri",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Dosya Konumunu Aç",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Dosyayı Aç",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Eksik izin nedeniyle görüntü kaydedilemedi",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

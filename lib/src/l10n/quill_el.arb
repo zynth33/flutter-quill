@@ -108,5 +108,38 @@
   "searchSettings": "Ρυθμίσεις αναζήτησης",
   "cut": "Αποκοπή",
   "paste": "Επικόλληση",
-  "insertTable": "Εισαγωγή πίνακα"
+  "insertTable": "Εισαγωγή πίνακα",
+  "insertVideo": "Εισαγωγή βίντεο",
+  "errorUnexpectedSavingImage": "Παρουσιάστηκε ένα μη αναμενόμενο σφάλμα κατά την αποθήκευση της εικόνας. Δοκιμάστε ξανά.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Η εικόνα αποθηκεύτηκε στη συλλογή σας.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Η εικόνα αποθηκεύτηκε με επιτυχία.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Η λήψη της εικόνας ολοκληρώθηκε με επιτυχία.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Άνοιγμα Συλλογής",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Άνοιγμα τοποθεσίας αρχείου",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Άνοιγμα αρχείου",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Δεν ήταν δυνατή η αποθήκευση της εικόνας λόγω έλλειψης άδειας",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

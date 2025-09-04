@@ -1,10 +1,10 @@
 {
   "@@locale": "ro",
   "pasteLink": "Lipește un link",
-  "ok": "Ok",
+  "ok": "Bine",
   "selectColor": "Selectează culoarea",
   "gallery": "Galerie",
-  "link": "Link",
+  "link": "Legătură",
   "open": "Deschide",
   "copy": "Copiază",
   "remove": "Elimină",
@@ -41,6 +41,10 @@
   "alignLeft": "Aliniază la stânga",
   "alignCenter": "Aliniază în centru",
   "alignRight": "Aliniază la dreapta",
+  "alignJustify": "Justificare",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Justifică lățimea ferestrei",
   "textDirection": "Direcție text",
   "headerStyle": "Stil antet",
@@ -73,6 +77,16 @@
   "moveToNextOccurrence": "Mutați la apariția următoare",
   "savedUsingTheNetwork": "Salvat cu ajutorul rețelei",
   "savedUsingLocalStorage": "Salvat în stocarea locală",
+  "theImageHasBeenSavedAt": "Imaginea a fost salvată la: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "Eroare la salvarea imaginii",
   "pleaseEnterTextForYourLink": "Vă rugăm să introduceți un text pentru link-ul dvs. (de exemplu, 'Aflați mai multe')",
   "pleaseEnterTheLinkURL": "Vă rugăm să introduceți URL-ul link-ului (de exemplu, 'https://example.com')",
@@ -81,6 +95,8 @@
   "photo": "Fotografie",
   "image": "Imagine",
   "caseSensitivityAndWholeWordSearch": "Sensibilitate la majuscule și căutare cuvânt întreg",
+  "caseSensitive": "Sensibilitate la majuscule și minuscule",
+  "wholeWord": "Cuvânt întreg",
   "insertImage": "Introdu imaginea",
   "pickAPhotoFromYourGallery": "Alege o fotografie din galeria ta",
   "takeAPhotoUsingYourCamera": "Fă o fotografie folosind camera ta",
@@ -88,13 +104,42 @@
   "pickAVideoFromYourGallery": "Alege un video din galeria ta",
   "recordAVideoUsingYourCamera": "Înregistrează un video folosind camera ta",
   "pasteAVideoUsingALink": "Lipește un video folosind un link",
-  "alignJustify": "Justificare",
-  "theImageHasBeenSavedAt": "Imaginea a fost salvată la: {imagePath}",
-  "caseSensitive": "Sensibilitate la majuscule și minuscule",
-  "wholeWord": "Cuvânt întreg",
   "close": "Închide",
   "searchSettings": "Setări de căutare",
   "cut": "Tăia",
   "paste": "Lipire",
-  "insertTable": "Inserare tabel"
+  "insertTable": "Inserare tabel",
+  "insertVideo": "Inserează videoclip",
+  "errorUnexpectedSavingImage": "A apărut o eroare neașteptată la salvarea imaginii. Vă rugăm să încercați din nou.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Imagine salvată în galeria ta.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Imaginea a fost salvată cu succes.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Imaginea a fost descărcată cu succes.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Galerie deschisă",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Deschideți locația fișierului",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Deschide fișier",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Nu s-a putut salva imaginea din cauza lipsei permisiunii.",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

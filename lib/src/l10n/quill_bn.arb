@@ -41,9 +41,20 @@
   "alignLeft": "বাম সারিবদ্ধ",
   "alignCenter": "কেন্দ্র সারিবদ্ধ",
   "alignRight": "ডান সারিবদ্ধ",
+  "alignJustify": "সর্বোচ্চ জাস্টিফাই",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "প্রস্থের সাথে সংযত",
   "textDirection": "টেক্সট ডিরেকশন",
   "headerStyle": "হেডার স্টাইল",
+  "normal": "সাধারণ",
+  "heading1": "শিরোনাম 1",
+  "heading2": "শিরোনাম 2",
+  "heading3": "শিরোনাম 3",
+  "heading4": "শিরোনাম 4",
+  "heading5": "শিরোনাম 5",
+  "heading6": "শিরোনাম 6",
   "numberedList": "সংখ্যাযুক্ত তালিকা",
   "bulletList": "বুলেট তালিকা",
   "checkedList": "চেক করা তালিকা",
@@ -64,13 +75,19 @@
   "findText": "পাঠ্য খুঁজুন",
   "moveToPreviousOccurrence": "পূর্ববর্তী ঘটনায় চলুন",
   "moveToNextOccurrence": "পরবর্তী ঘটনায় চলুন",
-  "savedUsingNetwork": "নেটওয়ার্ক ব্যবহার করে সংরক্ষিত",
-  "savedUsingLocalStorage": "স্থানীয় সংরক্ষণ ব্যবহার করে সংরক্ষিত",
-  "errorWhileSavingImage": "চিত্র সংরক্ষণে সময়ে ত্রুটি",
-  "enterTextForYourLink": "আপনার লিঙ্কের জন্য একটি টেক্সট লিখুন, উদাহরণস্বরূপ, 'আরও জানুন'",
-  "enterLinkURL": "আপনার লিঙ্ক URL লিখুন, উদাহরণস্বরূপ, 'https://example.com'",
-  "enterValidImageURL": "একটি বৈধ চিত্র URL লিখুন",
   "savedUsingTheNetwork": "নেটওয়ার্ক ব্যবহার করে সংরক্ষিত",
+  "savedUsingLocalStorage": "স্থানীয় সংরক্ষণ ব্যবহার করে সংরক্ষিত",
+  "theImageHasBeenSavedAt": "ছবিটি সংরক্ষিত হয়েছে: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
+  "errorWhileSavingImage": "চিত্র সংরক্ষণে সময়ে ত্রুটি",
   "pleaseEnterTextForYourLink": "আপনার লিঙ্কের জন্য একটি টেক্সট লিখুন (উদাঃ 'আরও জানুন')",
   "pleaseEnterTheLinkURL": "দয়া করে লিঙ্ক URL লিখুন (উদাঃ 'https://example.com')",
   "pleaseEnterAValidImageURL": "দয়া করে একটি বৈধ চিত্র URL লিখুন",
@@ -78,18 +95,9 @@
   "photo": "ফটো",
   "image": "চিত্র",
   "caseSensitivityAndWholeWordSearch": "কেস সেন্সিটিভিটি এবং পূর্ণ শব্দ অনুসন্ধান",
-  "insertImage": "চিত্র সন্নিবেশ",
-  "alignJustify": "সর্বোচ্চ জাস্টিফাই",
-  "normal": "সাধারণ",
-  "heading1": "শিরোনাম 1",
-  "heading2": "শিরোনাম 2",
-  "heading3": "শিরোনাম 3",
-  "heading4": "শিরোনাম 4",
-  "heading5": "শিরোনাম 5",
-  "heading6": "শিরোনাম 6",
-  "theImageHasBeenSavedAt": "ছবিটি সংরক্ষিত হয়েছে: {imagePath}",
   "caseSensitive": "বড়-ছোট অক্ষর বিভাজন",
   "wholeWord": "সম্পূর্ণ শব্দ",
+  "insertImage": "চিত্র সন্নিবেশ",
   "pickAPhotoFromYourGallery": "আপনার গ্যালারি থেকে একটি ছবি নির্বাচন করুন",
   "takeAPhotoUsingYourCamera": "আপনার ক্যামেরা ব্যবহার করে একটি ছবি তুলুন",
   "pasteAPhotoUsingALink": "একটি লিঙ্ক ব্যবহার করে একটি ছবি পেস্ট করুন",
@@ -100,5 +108,42 @@
   "searchSettings": "অনুসন্ধান সেটিংস",
   "cut": "কাটা",
   "paste": "পেস্ট",
-  "insertTable": "টেবিল যোগ করুন"
+  "insertTable": "টেবিল যোগ করুন",
+  "insertVideo": "ভিডিও ঢোকান",
+  "errorUnexpectedSavingImage": "ছবিটি সংরক্ষণ করার সময় একটি অপ্রত্যাশিত ত্রুটি ঘটেছে। অনুগ্রহ করে আবার চেষ্টা করুন।",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "ছবিটি আপনার গ্যালারিতে সংরক্ষিত হয়েছে।",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "ছবিটি সফলভাবে সংরক্ষিত হয়েছে।",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "ছবিটি সফলভাবে ডাউনলোড করা হয়েছে।",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "গ্যালারি খুলুন",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "ফাইলের অবস্থান খুলুন",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "ফাইল খুলুন",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "অনুমতি না থাকার কারণে ছবিটি সংরক্ষণ করা যায়নি।",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "savedUsingNetwork": "নেটওয়ার্ক ব্যবহার করে সংরক্ষিত",
+  "enterTextForYourLink": "আপনার লিঙ্কের জন্য একটি টেক্সট লিখুন, উদাহরণস্বরূপ, 'আরও জানুন'",
+  "enterLinkURL": "আপনার লিঙ্ক URL লিখুন, উদাহরণস্বরূপ, 'https://example.com'",
+  "enterValidImageURL": "একটি বৈধ চিত্র URL লিখুন"
 }

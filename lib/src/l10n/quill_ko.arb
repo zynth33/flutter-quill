@@ -41,6 +41,10 @@
   "alignLeft": "왼쪽 정렬",
   "alignCenter": "가운데 정렬",
   "alignRight": "오른쪽 정렬",
+  "alignJustify": "양쪽 정렬",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "좌우로 정렬",
   "textDirection": "텍스트 방향",
   "headerStyle": "헤더 스타일",
@@ -104,6 +108,38 @@
   "searchSettings": "검색 설정",
   "cut": "잘라내기",
   "paste": "붙여넣기",
-  "alignJustify": "양쪽 정렬",
-  "insertTable": "테이블 삽입"
+  "insertTable": "테이블 삽입",
+  "insertVideo": "비디오 삽입",
+  "errorUnexpectedSavingImage": "이미지를 저장하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도해 주세요.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "갤러리에 이미지가 저장되었습니다.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "이미지가 성공적으로 저장되었습니다.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "이미지가 성공적으로 다운로드되었습니다.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "오픈 갤러리",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "파일 위치 열기",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "파일 열기",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "권한이 없어 이미지를 저장할 수 없습니다.",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

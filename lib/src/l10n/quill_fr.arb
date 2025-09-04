@@ -1,7 +1,7 @@
 {
   "@@locale": "fr",
   "pasteLink": "Coller un lien",
-  "ok": "Ok",
+  "ok": "D'accord",
   "selectColor": "Choisir une couleur",
   "gallery": "Galerie",
   "link": "Lien",
@@ -41,10 +41,14 @@
   "alignLeft": "Aligner à gauche",
   "alignCenter": "Aligner au centre",
   "alignRight": "Aligner à droite",
+  "alignJustify": "Justifier le texte",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Justifier",
   "textDirection": "Direction du texte",
   "headerStyle": "Style d'en-tête",
-  "normal": "Normal",
+  "normal": "Normale",
   "heading1": "Titre 1",
   "heading2": "Titre 2",
   "heading3": "Titre 3",
@@ -73,6 +77,16 @@
   "moveToNextOccurrence": "Aller à l'occurrence suivante",
   "savedUsingTheNetwork": "Enregistré via le réseau",
   "savedUsingLocalStorage": "Enregistré en utilisant le stockage local",
+  "theImageHasBeenSavedAt": "L'image a été sauvegardée à : {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "Erreur lors de l'enregistrement de l'image",
   "pleaseEnterTextForYourLink": "par exemple, 'En savoir plus'",
   "pleaseEnterTheLinkURL": "par exemple, 'https://example.com'",
@@ -81,6 +95,8 @@
   "photo": "Photo",
   "image": "Image",
   "caseSensitivityAndWholeWordSearch": "Sensibilité à la casse et recherche de mots entiers",
+  "caseSensitive": "Respecter la casse",
+  "wholeWord": "Mot entier",
   "insertImage": "Insérer une image",
   "pickAPhotoFromYourGallery": "Choisissez une photo dans votre galerie",
   "takeAPhotoUsingYourCamera": "Prendre une photo avec votre appareil photo",
@@ -88,13 +104,42 @@
   "pickAVideoFromYourGallery": "Choisissez une vidéo dans votre galerie",
   "recordAVideoUsingYourCamera": "Enregistrez une vidéo en utilisant votre caméra",
   "pasteAVideoUsingALink": "Coller une vidéo à l'aide d'un lien",
-  "alignJustify": "Justifier le texte",
-  "theImageHasBeenSavedAt": "L'image a été sauvegardée à : {imagePath}",
-  "caseSensitive": "Respecter la casse",
-  "wholeWord": "Mot entier",
   "close": "Fermer",
   "searchSettings": "Paramètres de recherche",
   "cut": "Couper",
   "paste": "Coller",
-  "insertTable": "Insérer un tableau"
+  "insertTable": "Insérer un tableau",
+  "insertVideo": "Insérer une vidéo",
+  "errorUnexpectedSavingImage": "Une erreur inattendue s'est produite lors de l'enregistrement de l'image. Veuillez réessayer.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Image enregistrée dans votre galerie.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Image enregistrée avec succès.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Image téléchargée avec succès.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Ouvrir la galerie",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Ouvrir l'emplacement du fichier",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Ouvrir le fichier",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Impossible d'enregistrer l'image en raison d'une autorisation manquante",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

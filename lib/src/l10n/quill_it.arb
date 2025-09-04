@@ -1,7 +1,7 @@
 {
   "@@locale": "it",
   "pasteLink": "Incolla un collegamento",
-  "ok": "Ok",
+  "ok": "OK",
   "selectColor": "Seleziona Colore",
   "gallery": "Galleria",
   "link": "Collegamento",
@@ -22,7 +22,7 @@
   "clear": "Cancella",
   "font": "Font",
   "search": "Ricerca",
-  "camera": "Camera",
+  "camera": "Telecamera",
   "video": "Video",
   "undo": "Annulla",
   "redo": "Ripeti",
@@ -41,9 +41,20 @@
   "alignLeft": "Allinea a sinistra",
   "alignCenter": "Allinea al centro",
   "alignRight": "Allinea a destra",
+  "alignJustify": "Giustifica il testo",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Giustifica per larghezza finestra",
   "textDirection": "Direzione testo",
   "headerStyle": "Stile intestazione",
+  "normal": "Normale",
+  "heading1": "Intestazione 1",
+  "heading2": "Intestazione 2",
+  "heading3": "Intestazione 3",
+  "heading4": "Intestazione 4",
+  "heading5": "Intestazione 5",
+  "heading6": "Intestazione 6",
   "numberedList": "Elenco numerato",
   "bulletList": "Elenco puntato",
   "checkedList": "Elenco con segni di spunta",
@@ -64,13 +75,19 @@
   "findText": "Trova testo",
   "moveToPreviousOccurrence": "Vai all'occorrenza precedente",
   "moveToNextOccurrence": "Vai all'occorrenza successiva",
-  "savedUsingNetwork": "Salvato utilizzando la rete",
-  "savedUsingLocalStorage": "Salvato utilizzando la memorizzazione locale",
-  "errorWhileSavingImage": "Errore durante il salvataggio dell'immagine",
-  "enterTextForYourLink": "es. 'Per saperne di più'",
-  "enterLinkURL": "es. 'https://example.com'",
-  "enterValidImageURL": "Inserisci un URL di immagine valido",
   "savedUsingTheNetwork": "Salvato utilizzando la rete",
+  "savedUsingLocalStorage": "Salvato utilizzando la memorizzazione locale",
+  "theImageHasBeenSavedAt": "L'immagine è stata salvata in: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
+  "errorWhileSavingImage": "Errore durante il salvataggio dell'immagine",
   "pleaseEnterTextForYourLink": "Inserisci un testo per il tuo link (ad esempio, 'Per saperne di più')",
   "pleaseEnterTheLinkURL": "Inserisci l'URL del link (ad esempio, 'https://example.com')",
   "pleaseEnterAValidImageURL": "Inserisci un URL di immagine valido",
@@ -78,18 +95,9 @@
   "photo": "Foto",
   "image": "Immagine",
   "caseSensitivityAndWholeWordSearch": "Sensibilità maiuscole/minuscole e ricerca di parole intere",
-  "insertImage": "Inserisci immagine",
-  "alignJustify": "Giustifica il testo",
-  "normal": "Normale",
-  "heading1": "Intestazione 1",
-  "heading2": "Intestazione 2",
-  "heading3": "Intestazione 3",
-  "heading4": "Intestazione 4",
-  "heading5": "Intestazione 5",
-  "heading6": "Intestazione 6",
-  "theImageHasBeenSavedAt": "L'immagine è stata salvata in: {imagePath}",
   "caseSensitive": "Rispetta maiuscole e minuscole",
   "wholeWord": "Parola intera",
+  "insertImage": "Inserisci immagine",
   "pickAPhotoFromYourGallery": "Scegli una foto dalla tua galleria",
   "takeAPhotoUsingYourCamera": "Scatta una foto con la tua fotocamera",
   "pasteAPhotoUsingALink": "Incolla una foto utilizzando un link",
@@ -100,5 +108,42 @@
   "searchSettings": "Impostazioni di ricerca",
   "cut": "Taglia",
   "paste": "Incolla",
-  "insertTable": "Inserisci tabella"
+  "insertTable": "Inserisci tabella",
+  "insertVideo": "Inserisci video",
+  "errorUnexpectedSavingImage": "Si è verificato un errore imprevisto durante il salvataggio dell'immagine. Riprova.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Immagine salvata nella tua galleria.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Immagine salvata con successo.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Immagine scaricata correttamente.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Apri Galleria",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Apri posizione file",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Apri file",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Impossibile salvare l'immagine a causa della mancanza di autorizzazione",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "savedUsingNetwork": "Salvato utilizzando la rete",
+  "enterTextForYourLink": "es. 'Per saperne di più'",
+  "enterLinkURL": "es. 'https://example.com'",
+  "enterValidImageURL": "Inserisci un URL di immagine valido"
 }

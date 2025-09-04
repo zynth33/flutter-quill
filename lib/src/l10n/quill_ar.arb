@@ -41,9 +41,20 @@
   "alignLeft": "محاذاة اليسار",
   "alignCenter": "محاذاة الوسط",
   "alignRight": "محاذاة اليمين",
+  "alignJustify": "محاذاة النص",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "تبرير مع العرض",
   "textDirection": "اتجاه النص",
   "headerStyle": "ستايل العنوان",
+  "normal": "عادي",
+  "heading1": "ترويسة ١",
+  "heading2": "ترويسة ٢",
+  "heading3": "ترويسة ٣",
+  "heading4": "ترويسة ٤",
+  "heading5": "ترويسة ٥",
+  "heading6": "ترويسة ٦",
   "numberedList": "قائمة مرقمة",
   "bulletList": "قائمة منقطة",
   "checkedList": "قائمة للمهام",
@@ -57,8 +68,8 @@
   "enterMedia": "ادخل وسائط",
   "edit": "تعديل",
   "apply": "تطبيق",
-  "hex": "Hex",
-  "material": "Material",
+  "hex": "عرافة",
+  "material": "مادة",
   "color": "اللون",
   "lineheight": "ارتفاع خط",
   "findText": "بحث عن نص",
@@ -66,6 +77,16 @@
   "moveToNextOccurrence": "الانتقال إلى الحدث التالي",
   "savedUsingTheNetwork": "تم الحفظ باستخدام الشبكة",
   "savedUsingLocalStorage": "تم الحفظ باستخدام وحدة التخزين المحلية",
+  "theImageHasBeenSavedAt": "تم حفظ الصورة في: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "حدث خطأ أثناء حفظ الصورة",
   "pleaseEnterTextForYourLink": "مثال: 'تعلم المزيد'",
   "pleaseEnterTheLinkURL": "مثال: 'https://example.com'",
@@ -74,27 +95,51 @@
   "photo": "صورة",
   "image": "صورة",
   "caseSensitivityAndWholeWordSearch": "حالة الحساسية والبحث عن كلمة كاملة",
+  "caseSensitive": "حساسية الحالة",
+  "wholeWord": "كلمة كاملة",
   "insertImage": "إدراج صورة",
-  "normal": "عادي",
-  "heading1": "ترويسة ١",
-  "heading2": "ترويسة ٢",
-  "heading3": "ترويسة ٣",
-  "heading4": "ترويسة ٤",
-  "heading5": "ترويسة ٥",
-  "heading6": "ترويسة ٦",
   "pickAPhotoFromYourGallery": "اختيار صورة من معرض الصور",
   "takeAPhotoUsingYourCamera": "التقاط صورة باستخدام الكاميرا",
   "pasteAPhotoUsingALink": "لصق صورة باستخدام رابط",
   "pickAVideoFromYourGallery": "اختيار فيديو من معرض الفيديو",
   "recordAVideoUsingYourCamera": "تسجيل فيديو باستخدام الكاميرا",
   "pasteAVideoUsingALink": "لصق فيديو باستخدام رابط",
-  "alignJustify": "محاذاة النص",
-  "theImageHasBeenSavedAt": "تم حفظ الصورة في: {imagePath}",
-  "caseSensitive": "حساسية الحالة",
-  "wholeWord": "كلمة كاملة",
   "close": "إغلاق",
   "searchSettings": "إعدادات البحث",
   "cut": "قص",
   "paste": "لصق",
-  "insertTable": "إدراج جدول"
+  "insertTable": "إدراج جدول",
+  "insertVideo": "إدراج الفيديو",
+  "errorUnexpectedSavingImage": "حدث خطأ غير متوقع أثناء حفظ الصورة. يُرجى المحاولة مرة أخرى.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "تم حفظ الصورة في معرض الصور الخاص بك.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "تم حفظ الصورة بنجاح.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "تم تحميل الصورة بنجاح.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "افتح المعرض",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "موقع الملف المفتوح",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "فتح الملف",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "لم أتمكن من حفظ الصورة بسبب عدم وجود إذن",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

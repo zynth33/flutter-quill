@@ -41,6 +41,10 @@
   "alignLeft": "Vänsterjustera",
   "alignCenter": "Centrera",
   "alignRight": "Högerjustera",
+  "alignJustify": "Justera text",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Justera till fönsterbredd",
   "textDirection": "Textriktning",
   "headerStyle": "Rubrikstil",
@@ -64,7 +68,7 @@
   "enterMedia": "Ange media",
   "edit": "Redigera",
   "apply": "Tillämpa",
-  "hex": "Hex",
+  "hex": "Hexagon",
   "material": "Material",
   "color": "Färg",
   "lineheight": "Radavstånd",
@@ -73,6 +77,16 @@
   "moveToNextOccurrence": "Gå till nästa förekomst",
   "savedUsingTheNetwork": "Sparad med hjälp av nätverket",
   "savedUsingLocalStorage": "Sparad med hjälp av lokal lagring",
+  "theImageHasBeenSavedAt": "Bilden har sparats på: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "Fel vid när bilden skulle sparas",
   "pleaseEnterTextForYourLink": "Ange text för din länk (t.ex. 'Lär dig mer')",
   "pleaseEnterTheLinkURL": "Ange URL för länken (t.ex. 'https://example.com')",
@@ -81,6 +95,8 @@
   "photo": "Foto",
   "image": "Bild",
   "caseSensitivityAndWholeWordSearch": "Skiftlägeskänsligt och helordsökning",
+  "caseSensitive": "Skilja mellan versaler och gemener",
+  "wholeWord": "Hela ord",
   "insertImage": "Infoga bild",
   "pickAPhotoFromYourGallery": "Välj ett foto från ditt galleri",
   "takeAPhotoUsingYourCamera": "Ta ett foto med din kamera",
@@ -88,13 +104,42 @@
   "pickAVideoFromYourGallery": "Välj en video från ditt galleri",
   "recordAVideoUsingYourCamera": "Spela in en video med din kamera",
   "pasteAVideoUsingALink": "Klistra in en video med en länk",
-  "alignJustify": "Justera text",
-  "theImageHasBeenSavedAt": "Bilden har sparats på: {imagePath}",
-  "caseSensitive": "Skilja mellan versaler och gemener",
-  "wholeWord": "Hela ord",
   "close": "Stäng",
   "searchSettings": "Sökinställningar",
   "cut": "Klipp ut",
   "paste": "Klistra in",
-  "insertTable": "Infoga tabell"
+  "insertTable": "Infoga tabell",
+  "insertVideo": "Infoga video",
+  "errorUnexpectedSavingImage": "Ett oväntat fel uppstod när bilden sparades. Försök igen.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Bilden sparad i ditt galleri.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Bilden har sparats.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Bilden har laddats ner.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Öppna galleriet",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Öppna filplats",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Öppna fil",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Kunde inte spara bilden på grund av saknad behörighet",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

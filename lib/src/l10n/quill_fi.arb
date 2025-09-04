@@ -1,7 +1,7 @@
 {
   "@@locale": "fi",
   "pasteLink": "Liitä linkki",
-  "ok": "Ok",
+  "ok": "Okei",
   "selectColor": "Valitse väri",
   "gallery": "Galleria",
   "link": "Linkki",
@@ -68,7 +68,7 @@
   "enterMedia": "Syötä media",
   "edit": "Muokkaa",
   "apply": "Käytä",
-  "hex": "Hex",
+  "hex": "Heks",
   "material": "Materiaali",
   "color": "Väri",
   "lineheight": "Riviväli",

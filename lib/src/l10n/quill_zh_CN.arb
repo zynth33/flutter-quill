@@ -41,6 +41,10 @@
   "alignLeft": "左对齐",
   "alignCenter": "居中对齐",
   "alignRight": "右对齐",
+  "alignJustify": "两端对齐",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "两端对齐",
   "textDirection": "文本方向",
   "headerStyle": "标题样式",
@@ -73,6 +77,16 @@
   "moveToNextOccurrence": "下一个匹配项",
   "savedUsingTheNetwork": "通过网络保存",
   "savedUsingLocalStorage": "使用本地存储保存",
+  "theImageHasBeenSavedAt": "图片已保存到: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "保存图像时发生错误",
   "pleaseEnterTextForYourLink": "如'了解更多'",
   "pleaseEnterTheLinkURL": "如'https://example.com'",
@@ -81,6 +95,8 @@
   "photo": "照片",
   "image": "图像",
   "caseSensitivityAndWholeWordSearch": "区分大小写和整词搜索",
+  "caseSensitive": "区分大小写",
+  "wholeWord": "完整单词",
   "insertImage": "插入图像",
   "pickAPhotoFromYourGallery": "从相册选取图片",
   "takeAPhotoUsingYourCamera": "使用相机拍照",
@@ -88,13 +104,42 @@
   "pickAVideoFromYourGallery": "从相册选取视频",
   "recordAVideoUsingYourCamera": "使用相机录制",
   "pasteAVideoUsingALink": "从链接获取视频",
-  "alignJustify": "两端对齐",
-  "theImageHasBeenSavedAt": "图片已保存到: {imagePath}",
-  "caseSensitive": "区分大小写",
-  "wholeWord": "完整单词",
   "close": "关闭",
   "searchSettings": "搜索设置",
   "cut": "剪切",
   "paste": "粘贴",
-  "insertTable": "插入表格"
+  "insertTable": "插入表格",
+  "insertVideo": "插入视频",
+  "errorUnexpectedSavingImage": "保存图片时出现意外错误。请重试。",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "图像已保存至您的图库。",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "图像保存成功。",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "图像下载成功。",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "打开画廊",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "打开文件位置",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "打开文件",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "由于缺少权限，无法保存图片",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

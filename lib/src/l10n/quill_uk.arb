@@ -11,15 +11,6 @@
   "save": "Зберегти",
   "zoom": "Збільшити",
   "saved": "Збережено",
-  "hex": "Hex",
-  "material": "Матеріал",
-  "color": "Колір",
-  "lineheight": "Висота лінії",
-  "pleaseEnterAValidVideoURL": "Будь ласка, введіть дійсну URL-адресу відео",
-  "photo": "Фото",
-  "image": "Зображення",
-  "caseSensitivityAndWholeWordSearch": "Чутливість до регістру та пошук цілих слів",
-  "insertImage": "Вставити зображення",
   "text": "Текст",
   "resize": "Змінити розмір",
   "width": "Ширина",
@@ -50,9 +41,20 @@
   "alignLeft": "Вирівняти ліворуч",
   "alignCenter": "Вирівняти по центру",
   "alignRight": "Вирівняти праворуч",
+  "alignJustify": "Вирівняти по ширині",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Вирівняти за шириною вікна",
   "textDirection": "Напрямок тексту",
   "headerStyle": "Стиль заголовка",
+  "normal": "Звичайний",
+  "heading1": "Заголовок 1",
+  "heading2": "Заголовок 2",
+  "heading3": "Заголовок 3",
+  "heading4": "Заголовок 4",
+  "heading5": "Заголовок 5",
+  "heading6": "Заголовок 6",
   "numberedList": "Нумерований список",
   "bulletList": "Маркований список",
   "checkedList": "Список з позначками",
@@ -66,35 +68,78 @@
   "enterMedia": "Ввести медіа",
   "edit": "Редагувати",
   "apply": "Застосувати",
+  "hex": "Шістнадцятковий",
+  "material": "Матеріал",
+  "color": "Колір",
+  "lineheight": "Висота лінії",
   "findText": "Знайти текст",
   "moveToPreviousOccurrence": "Перейти до попереднього випадку",
   "moveToNextOccurrence": "Перейти до наступного випадку",
   "savedUsingTheNetwork": "Збережено за допомогою мережі",
   "savedUsingLocalStorage": "Збережено за допомогою локального сховища",
+  "theImageHasBeenSavedAt": "Зображення збережено за адресою: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "Помилка при збереженні зображення",
   "pleaseEnterTextForYourLink": "Наприклад, 'Дізнатися більше'",
   "pleaseEnterTheLinkURL": "Наприклад, 'https://example.com'",
   "pleaseEnterAValidImageURL": "Будь ласка, введіть правильний URL-адресу зображення",
+  "pleaseEnterAValidVideoURL": "Будь ласка, введіть дійсну URL-адресу відео",
+  "photo": "Фото",
+  "image": "Зображення",
+  "caseSensitivityAndWholeWordSearch": "Чутливість до регістру та пошук цілих слів",
+  "caseSensitive": "Чутливість до регістру",
+  "wholeWord": "Слово повністю",
+  "insertImage": "Вставити зображення",
   "pickAPhotoFromYourGallery": "Оберіть фотографію з вашої галереї",
   "takeAPhotoUsingYourCamera": "Створіть фотографію, використовуючи фотокамеру",
   "pasteAPhotoUsingALink": "Вставте фотографію, використовуючи посилання",
   "pickAVideoFromYourGallery": "Оберіть відео з вашої галереї",
   "recordAVideoUsingYourCamera": "Запишіть відео, використовуючи відеокамеру",
   "pasteAVideoUsingALink": "Вставте відео, використовуючи посилання",
-  "normal": "Звичайний",
-  "heading1": "Заголовок 1",
-  "heading2": "Заголовок 2",
-  "heading3": "Заголовок 3",
-  "heading4": "Заголовок 4",
-  "heading5": "Заголовок 5",
-  "heading6": "Заголовок 6",
-  "alignJustify": "Вирівняти по ширині",
-  "theImageHasBeenSavedAt": "Зображення збережено за адресою: {imagePath}",
-  "caseSensitive": "Чутливість до регістру",
-  "wholeWord": "Слово повністю",
   "close": "Закрити",
   "searchSettings": "Налаштування пошуку",
   "cut": "Вирізати",
   "paste": "Вставити",
-  "insertTable": "Вставити таблицю"
+  "insertTable": "Вставити таблицю",
+  "insertVideo": "Вставити відео",
+  "errorUnexpectedSavingImage": "Під час збереження зображення сталася неочікувана помилка. Спробуйте ще раз.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Зображення збережено у вашій галереї.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Зображення успішно збережено.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Зображення успішно завантажено.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Відкрити галерею",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Відкрити розташування файлу",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Відкрити файл",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Не вдалося зберегти зображення через відсутність дозволу",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

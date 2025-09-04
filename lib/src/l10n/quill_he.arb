@@ -41,9 +41,20 @@
   "alignLeft": "יישור לשמאל",
   "alignCenter": "יישור למרכז",
   "alignRight": "יישור לימין",
+  "alignJustify": "justify",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "יישור לרוחב החלון",
   "textDirection": "כיוון הטקסט",
   "headerStyle": "סגנון הכותרת",
+  "normal": "רגיל",
+  "heading1": "כותרת 1",
+  "heading2": "כותרת 2",
+  "heading3": "כותרת 3",
+  "heading4": "כותרת 4",
+  "heading5": "כותרת 5",
+  "heading6": "כותרת 6",
   "numberedList": "רשימה ממוספרת",
   "bulletList": "רשימה עם תבליטים",
   "checkedList": "רשימת תיקולים",
@@ -57,20 +68,26 @@
   "enterMedia": "הכנס מדיה",
   "edit": "ערוך",
   "apply": "החל",
-  "findText": "מצא טקסט",
-  "moveToPreviousOccurrence": "התקדם להופעה הקודמת",
-  "moveToNextOccurrence": "התקדם להופעה הבאה",
-  "savedUsingNetwork": "נשמר באמצעות הרשת",
-  "savedUsingLocalStorage": "נשמר באמצעות אחסון מקומי",
-  "errorWhileSavingImage": "שגיאה בעת שמירת התמונה",
-  "enterTextForYourLink": "לדוגמה, 'מידע נוסף'",
-  "enterLinkURL": "לדוגמה, 'https://example.com'",
-  "enterValidImageURL": "אנא הכנס URL תמונה תקני",
-  "hex": "Hex",
+  "hex": "הקס",
   "material": "חומר",
   "color": "צבע",
   "lineheight": "גובה קו",
+  "findText": "מצא טקסט",
+  "moveToPreviousOccurrence": "התקדם להופעה הקודמת",
+  "moveToNextOccurrence": "התקדם להופעה הבאה",
   "savedUsingTheNetwork": "נשמר באמצעות הרשת",
+  "savedUsingLocalStorage": "נשמר באמצעות אחסון מקומי",
+  "theImageHasBeenSavedAt": "התמונה נשמרה ב: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
+  "errorWhileSavingImage": "שגיאה בעת שמירת התמונה",
   "pleaseEnterTextForYourLink": "אנא הזן טקסט לקישור שלך (לדוגמה, 'מידע נוסף')",
   "pleaseEnterTheLinkURL": "אנא הזן את כתובת ה-URL של הקישור (לדוגמה, 'https://example.com')",
   "pleaseEnterAValidImageURL": "אנא הזן כתובת URL תקינה של תמונה",
@@ -78,18 +95,9 @@
   "photo": "תמונה",
   "image": "תמונה",
   "caseSensitivityAndWholeWordSearch": "רגישות לאותות רישיות וחיפוש לפי מילה שלמה",
-  "insertImage": "הכנס תמונה",
-  "alignJustify": "justify",
-  "normal": "רגיל",
-  "heading1": "כותרת 1",
-  "heading2": "כותרת 2",
-  "heading3": "כותרת 3",
-  "heading4": "כותרת 4",
-  "heading5": "כותרת 5",
-  "heading6": "כותרת 6",
-  "theImageHasBeenSavedAt": "התמונה נשמרה ב: {imagePath}",
   "caseSensitive": "מבחין בין רישיות לקטנות",
   "wholeWord": "מילה שלמה",
+  "insertImage": "הכנס תמונה",
   "pickAPhotoFromYourGallery": "בחר תמונה מהגלריה שלך",
   "takeAPhotoUsingYourCamera": "צלם תמונה באמצעות המצלמה שלך",
   "pasteAPhotoUsingALink": "הדבק תמונה באמצעות קישור",
@@ -100,5 +108,42 @@
   "searchSettings": "הגדרות חיפוש",
   "cut": "גזור",
   "paste": "הדבק",
-  "insertTable": "הוסף טבלה"
+  "insertTable": "הוסף טבלה",
+  "insertVideo": "הכנס סרטון",
+  "errorUnexpectedSavingImage": "אירעה שגיאה בלתי צפויה בעת שמירת התמונה. אנא נסה שוב.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "התמונה נשמרה בגלריה שלך.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "התמונה נשמרה בהצלחה.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "התמונה הורדה בהצלחה.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "פתח גלריה",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "פתיחת מיקום קובץ",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "פתח קובץ",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "לא ניתן היה לשמור את התמונה עקב הרשאה חסרה",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "savedUsingNetwork": "נשמר באמצעות הרשת",
+  "enterTextForYourLink": "לדוגמה, 'מידע נוסף'",
+  "enterLinkURL": "לדוגמה, 'https://example.com'",
+  "enterValidImageURL": "אנא הכנס URL תמונה תקני"
 }

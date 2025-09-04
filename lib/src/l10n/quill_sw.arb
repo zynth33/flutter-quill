@@ -41,9 +41,20 @@
   "alignLeft": "Pangilia Kushoto",
   "alignCenter": "Pangilia Kati",
   "alignRight": "Pangilia Kulia",
+  "alignJustify": "Panga sawa",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Kuhalalisha Upana wa Ushindi",
   "textDirection": "Mwelekeo wa Maandishi",
   "headerStyle": "Mtindo wa Mada",
+  "normal": "Kawaida",
+  "heading1": "Kichwa 1",
+  "heading2": "Kichwa 2",
+  "heading3": "Kichwa 3",
+  "heading4": "Kichwa 4",
+  "heading5": "Kichwa 5",
+  "heading6": "Kichwa 6",
   "numberedList": "Orodha ya Nambari",
   "bulletList": "Orodha ya Risasi",
   "checkedList": "Orodha iliyoangaliwa",
@@ -64,29 +75,29 @@
   "findText": "Pata Maandishi",
   "moveToPreviousOccurrence": "Nenda Kwenye Tukio la Awali",
   "moveToNextOccurrence": "Nenda kwa Tukio linalofuata",
-  "savedUsingNetwork": "Imehifadhiwa kwa Kutumia Mtandao",
+  "savedUsingTheNetwork": "Imehifadhiwa kwa kutumia mtandao",
   "savedUsingLocalStorage": "Imehifadhiwa kwa Hifadhi ya Ndani",
+  "theImageHasBeenSavedAt": "Picha imehifadhiwa kwenye: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "Hitilafu Wakati wa Kuhifadhi Picha",
   "pleaseEnterTextForYourLink": "Kwa mfano, 'Jifunze zaidi'",
   "pleaseEnterTheLinkURL": "Kwa mfano, 'https://example.com'",
   "pleaseEnterAValidImageURL": "Tafadhali ingiza URL halali ya picha",
-  "savedUsingTheNetwork": "Imehifadhiwa kwa kutumia mtandao",
   "pleaseEnterAValidVideoURL": "Tafadhali ingiza URL ya video ili",
   "photo": "Picha",
   "image": "Picha",
   "caseSensitivityAndWholeWordSearch": "Uwiano wa herufi kubwa na ndogo na utafutaji wa neno zima",
-  "insertImage": "Weka Picha",
-  "alignJustify": "Panga sawa",
-  "normal": "Kawaida",
-  "heading1": "Kichwa 1",
-  "heading2": "Kichwa 2",
-  "heading3": "Kichwa 3",
-  "heading4": "Kichwa 4",
-  "heading5": "Kichwa 5",
-  "heading6": "Kichwa 6",
-  "theImageHasBeenSavedAt": "Picha imehifadhiwa kwenye: {imagePath}",
   "caseSensitive": "Jitambulishe kwa herufi kubwa na ndogo",
   "wholeWord": "Neno zima",
+  "insertImage": "Weka Picha",
   "pickAPhotoFromYourGallery": "Chagua picha kutoka kwenye galleri yako",
   "takeAPhotoUsingYourCamera": "Piga picha kwa kutumia kamera yako",
   "pasteAPhotoUsingALink": "Pasta picha kwa kutumia kiungo",
@@ -97,5 +108,39 @@
   "searchSettings": "Mipangilio ya utafutaji",
   "cut": "Katakata",
   "paste": "Bandika",
-  "insertTable": "Ingiza jedwali"
+  "insertTable": "Ingiza jedwali",
+  "insertVideo": "Weka video",
+  "errorUnexpectedSavingImage": "Hitilafu isiyotarajiwa imetokea wakati wa kuhifadhi picha. Tafadhali jaribu tena.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Picha imehifadhiwa kwenye ghala yako.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Picha imehifadhiwa.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Picha imepakuliwa.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Fungua Matunzio",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Fungua Mahali pa Faili",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Fungua Faili",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Haikuweza kuhifadhi picha kwa sababu ya kukosa ruhusa",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "savedUsingNetwork": "Imehifadhiwa kwa Kutumia Mtandao"
 }

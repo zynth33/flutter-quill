@@ -1,7 +1,7 @@
 {
   "@@locale": "cs",
   "pasteLink": "Vložit odkaz",
-  "ok": "Ok",
+  "ok": "Dobře",
   "selectColor": "Vybrat barvu",
   "gallery": "Galerie",
   "link": "Odkaz",
@@ -41,9 +41,20 @@
   "alignLeft": "Zarovnat vlevo",
   "alignCenter": "Zarovnat na střed",
   "alignRight": "Zarovnat vpravo",
+  "alignJustify": "Zarovnat do bloku",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Zarovnat do bloku",
   "textDirection": "Směr textu",
   "headerStyle": "Styl záhlaví",
+  "normal": "Normální text",
+  "heading1": "Nadpis 1",
+  "heading2": "Nadpis 2",
+  "heading3": "Nadpis 3",
+  "heading4": "Nadpis 4",
+  "heading5": "Nadpis 5",
+  "heading6": "Nadpis 6",
   "numberedList": "Číslovaný seznam",
   "bulletList": "Seznam s odrážkami",
   "checkedList": "Seznam s zaškrtávacími políčky",
@@ -57,35 +68,15 @@
   "enterMedia": "Vložit média",
   "edit": "Upravit",
   "apply": "Použít",
-  "hex": "Hex",
-  "material": "Material",
+  "hex": "Šestiúhelník",
+  "material": "Materiál",
   "color": "Barva",
   "lineheight": "Výška čáry",
   "findText": "Najít text",
   "moveToPreviousOccurrence": "Přesunout na předchozí výskyt",
   "moveToNextOccurrence": "Přesunout na následující výskyt",
-  "savedUsingNetwork": "Uloženo pomocí sítě",
-  "savedUsingLocalStorage": "Uloženo lokálně",
-  "errorWhileSavingImage": "Chyba při ukládání obrázku",
-  "enterTextForYourLink": "Například 'Zjistit více'",
-  "enterLinkURL": "Například 'https://example.com'",
-  "enterValidImageURL": "Vložte platný URL obrázku",
   "savedUsingTheNetwork": "Uloženo pomocí sítě",
-  "pleaseEnterTextForYourLink": "Zadejte text pro váš odkaz (např., 'Dozvědět se více')",
-  "pleaseEnterTheLinkURL": "Zadejte URL odkazu (např., 'https://example.com')",
-  "pleaseEnterAValidImageURL": "Zadejte platnou URL adresu obrázku",
-  "pleaseEnterAValidVideoURL": "Zadejte platnou URL adresu videa",
-  "photo": "Foto",
-  "image": "Obrázek",
-  "caseSensitivityAndWholeWordSearch": "Citlivost na velká a malá písmena a vyhledávání celého slova",
-  "insertImage": "Vložit obrázek",
-  "normal": "Normální text",
-  "heading1": "Nadpis 1",
-  "heading2": "Nadpis 2",
-  "heading3": "Nadpis 3",
-  "heading4": "Nadpis 4",
-  "heading5": "Nadpis 5",
-  "heading6": "Nadpis 6",
+  "savedUsingLocalStorage": "Uloženo lokálně",
   "theImageHasBeenSavedAt": "Obrázek byl uložen v: {imagePath}",
   "@theImageHasBeenSavedAt": {
     "description": "Zpráva s jedním parametrem",
@@ -96,18 +87,63 @@
       }
     }
   },
+  "errorWhileSavingImage": "Chyba při ukládání obrázku",
+  "pleaseEnterTextForYourLink": "Zadejte text pro váš odkaz (např., 'Dozvědět se více')",
+  "pleaseEnterTheLinkURL": "Zadejte URL odkazu (např., 'https://example.com')",
+  "pleaseEnterAValidImageURL": "Zadejte platnou URL adresu obrázku",
+  "pleaseEnterAValidVideoURL": "Zadejte platnou URL adresu videa",
+  "photo": "Foto",
+  "image": "Obrázek",
+  "caseSensitivityAndWholeWordSearch": "Citlivost na velká a malá písmena a vyhledávání celého slova",
+  "caseSensitive": "Rozlišovat velikost písmen",
+  "wholeWord": "Celé slovo",
+  "insertImage": "Vložit obrázek",
   "pickAPhotoFromYourGallery": "Vybrat fotku z galerie",
   "takeAPhotoUsingYourCamera": "Použít fotoaparát",
   "pasteAPhotoUsingALink": "Vložit fotografii pomocí odkazu",
   "pickAVideoFromYourGallery": "Vyberte video z galerie",
   "recordAVideoUsingYourCamera": "Natočit video pomocí kamery",
   "pasteAVideoUsingALink": "Vložit video pomocí odkazu",
-  "alignJustify": "Zarovnat do bloku",
-  "caseSensitive": "Rozlišovat velikost písmen",
-  "wholeWord": "Celé slovo",
   "close": "Zavřít",
   "searchSettings": "Nastavení hledání",
   "cut": "Vyjmout",
   "paste": "Vložit",
-  "insertTable": "Vložit tabulku"
+  "insertTable": "Vložit tabulku",
+  "insertVideo": "Vložit video",
+  "errorUnexpectedSavingImage": "Při ukládání obrázku došlo k neočekávané chybě. Zkuste to prosím znovu.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Obrázek uložen do vaší galerie.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Obrázek byl úspěšně uložen.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Obrázek byl úspěšně stažen.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Otevřít galerii",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Otevřít umístění souboru",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Otevřít soubor",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Obrázek se nepodařilo uložit z důvodu chybějícího oprávnění.",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "savedUsingNetwork": "Uloženo pomocí sítě",
+  "enterTextForYourLink": "Například 'Zjistit více'",
+  "enterLinkURL": "Například 'https://example.com'",
+  "enterValidImageURL": "Vložte platný URL obrázku"
 }

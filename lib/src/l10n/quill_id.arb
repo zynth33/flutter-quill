@@ -20,12 +20,12 @@
   "large": "Besar",
   "huge": "Sangat Besar",
   "clear": "Hapus",
-  "font": "Font",
+  "font": "Huruf",
   "search": "Cari",
   "camera": "Kamera",
   "video": "Video",
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "Membuka",
+  "redo": "Mengulangi",
   "fontFamily": "Keluarga Font",
   "fontSize": "Ukuran Font",
   "bold": "Tebal",
@@ -41,9 +41,20 @@
   "alignLeft": "Rata Kiri",
   "alignCenter": "Rata Tengah",
   "alignRight": "Rata Kanan",
+  "alignJustify": "Rata kanan kiri",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Rata Kanan dan Kiri",
   "textDirection": "Arah Teks",
   "headerStyle": "Gaya Header",
+  "normal": "Normal",
+  "heading1": "Judul 1",
+  "heading2": "Judul 2",
+  "heading3": "Judul 3",
+  "heading4": "Judul 4",
+  "heading5": "Judul 5",
+  "heading6": "Judul 6",
   "numberedList": "Daftar Bernomor",
   "bulletList": "Daftar Poin",
   "checkedList": "Daftar Dicentang",
@@ -55,22 +66,28 @@
   "visitLink": "Kunjungi Tautan",
   "enterLink": "Masukkan Tautan",
   "enterMedia": "Masukkan Media",
-  "edit": "Edit",
+  "edit": "Sunting",
   "apply": "Terapkan",
+  "hex": "Heksagonal",
+  "material": "Bahan",
+  "color": "Warna",
+  "lineheight": "Tinggi garis",
   "findText": "Temukan Teks",
   "moveToPreviousOccurrence": "Pindah ke Kejadian Sebelumnya",
   "moveToNextOccurrence": "Pindah ke Kejadian Berikutnya",
-  "savedUsingNetwork": "Tersimpan menggunakan jaringan",
-  "savedUsingLocalStorage": "Tersimpan menggunakan penyimpanan lokal",
-  "errorWhileSavingImage": "Error saat menyimpan gambar",
-  "enterTextForYourLink": "contoh: 'Pelajari lebih lanjut'",
-  "enterLinkURL": "contoh: 'https://example.com'",
-  "enterValidImageURL": "Silakan masukkan URL gambar yang valid",
-  "hex": "Hex",
-  "material": "Material",
-  "color": "Warna",
-  "lineheight": "Tinggi garis",
   "savedUsingTheNetwork": "Tersimpan menggunakan jaringan",
+  "savedUsingLocalStorage": "Tersimpan menggunakan penyimpanan lokal",
+  "theImageHasBeenSavedAt": "Gambar telah disimpan di: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
+  "errorWhileSavingImage": "Error saat menyimpan gambar",
   "pleaseEnterTextForYourLink": "Harap masukkan teks untuk tautan Anda (contoh: 'Pelajari lebih lanjut')",
   "pleaseEnterTheLinkURL": "Harap masukkan URL tautan (contoh: 'https://example.com')",
   "pleaseEnterAValidImageURL": "Harap masukkan URL gambar yang valid",
@@ -78,18 +95,9 @@
   "photo": "Foto",
   "image": "Gambar",
   "caseSensitivityAndWholeWordSearch": "Sensitivitas huruf besar dan kecil dan pencarian kata utuh",
-  "insertImage": "Sisipkan Gambar",
-  "alignJustify": "Rata kanan kiri",
-  "normal": "Normal",
-  "heading1": "Judul 1",
-  "heading2": "Judul 2",
-  "heading3": "Judul 3",
-  "heading4": "Judul 4",
-  "heading5": "Judul 5",
-  "heading6": "Judul 6",
-  "theImageHasBeenSavedAt": "Gambar telah disimpan di: {imagePath}",
   "caseSensitive": "Sensitif huruf besar-kecil",
   "wholeWord": "Kata penuh",
+  "insertImage": "Sisipkan Gambar",
   "pickAPhotoFromYourGallery": "Pilih foto dari galeri Anda",
   "takeAPhotoUsingYourCamera": "Ambil foto menggunakan kamera Anda",
   "pasteAPhotoUsingALink": "Tempel foto menggunakan tautan",
@@ -100,5 +108,42 @@
   "searchSettings": "Pengaturan pencarian",
   "cut": "Potong",
   "paste": "Tempel",
-  "insertTable": "Sisipkan tabel"
+  "insertTable": "Sisipkan tabel",
+  "insertVideo": "Sisipkan video",
+  "errorUnexpectedSavingImage": "Terjadi kesalahan tak terduga saat menyimpan gambar. Silakan coba lagi.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Gambar disimpan di galeri Anda.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Gambar berhasil disimpan.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Gambar berhasil diunduh.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Buka Galeri",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Buka Lokasi File",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Buka Berkas",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Tidak dapat menyimpan gambar karena tidak memiliki izin",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "savedUsingNetwork": "Tersimpan menggunakan jaringan",
+  "enterTextForYourLink": "contoh: 'Pelajari lebih lanjut'",
+  "enterLinkURL": "contoh: 'https://example.com'",
+  "enterValidImageURL": "Silakan masukkan URL gambar yang valid"
 }

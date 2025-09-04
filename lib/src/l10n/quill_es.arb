@@ -1,7 +1,7 @@
 {
   "@@locale": "es",
   "pasteLink": "Pega un enlace",
-  "ok": "Ok",
+  "ok": "De acuerdo",
   "selectColor": "Selecciona un color",
   "gallery": "Galería",
   "link": "Enlace",
@@ -41,9 +41,20 @@
   "alignLeft": "Alinear a la izquierda",
   "alignCenter": "Centrar",
   "alignRight": "Alinear a la derecha",
+  "alignJustify": "Justificar texto",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Justificar",
   "textDirection": "Dirección del texto",
   "headerStyle": "Estilo de encabezado",
+  "normal": "Normal",
+  "heading1": "Encabezado 1",
+  "heading2": "Encabezado 2",
+  "heading3": "Encabezado 3",
+  "heading4": "Encabezado 4",
+  "heading5": "Encabezado 5",
+  "heading6": "Encabezado 6",
   "numberedList": "Lista numerada",
   "bulletList": "Lista con viñetas",
   "checkedList": "Lista de comprobación",
@@ -57,44 +68,78 @@
   "enterMedia": "Insertar medio",
   "edit": "Editar",
   "apply": "Aplicar",
+  "hex": "Maleficio",
+  "material": "Material",
+  "color": "Color",
+  "lineheight": "Interlineado",
   "findText": "Buscar texto",
   "moveToPreviousOccurrence": "Ir a la ocurrencia anterior",
   "moveToNextOccurrence": "Ir a la siguiente ocurrencia",
   "savedUsingTheNetwork": "Guardado usando la red",
   "savedUsingLocalStorage": "Guardado usando almacenamiento local",
+  "theImageHasBeenSavedAt": "La imagen se ha guardado en: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "Error al guardar imagen",
   "pleaseEnterTextForYourLink": "p.ej., 'Aprende más'",
   "pleaseEnterTheLinkURL": "p.ej., 'https://example.com'",
   "pleaseEnterAValidImageURL": "Por favor, introduzca una URL de imagen válida",
-  "hex": "Hex",
-  "material": "Material",
-  "color": "Color",
-  "lineheight": "Interlineado",
   "pleaseEnterAValidVideoURL": "Por favor, ingrese una URL de video válida",
   "photo": "Foto",
   "image": "Imagen",
   "caseSensitivityAndWholeWordSearch": "Sensibilidad a mayúsculas y búsqueda de palabras completas",
+  "caseSensitive": "Distinción entre mayúsculas y minúsculas",
+  "wholeWord": "Palabra completa",
   "insertImage": "Insertar imagen",
   "pickAPhotoFromYourGallery": "Elige una foto de tu galería",
   "takeAPhotoUsingYourCamera": "Toma una foto con tu cámara",
   "pasteAPhotoUsingALink": "Pega una foto usando un enlace",
   "pickAVideoFromYourGallery": "Elige un video de tu galería",
   "recordAVideoUsingYourCamera": "Graba un video con tu cámara",
-  "alignJustify": "Justificar texto",
-  "normal": "Normal",
-  "heading1": "Encabezado 1",
-  "heading2": "Encabezado 2",
-  "heading3": "Encabezado 3",
-  "heading4": "Encabezado 4",
-  "heading5": "Encabezado 5",
-  "heading6": "Encabezado 6",
-  "theImageHasBeenSavedAt": "La imagen se ha guardado en: {imagePath}",
-  "caseSensitive": "Distinción entre mayúsculas y minúsculas",
-  "wholeWord": "Palabra completa",
   "pasteAVideoUsingALink": "Pegar un video usando un enlace",
   "close": "Cerrar",
   "searchSettings": "Configuración de búsqueda",
   "cut": "Cortar",
   "paste": "Pegar",
-  "insertTable": "Insertar tabla"
+  "insertTable": "Insertar tabla",
+  "insertVideo": "Insertar vídeo",
+  "errorUnexpectedSavingImage": "Se produjo un error inesperado al guardar la imagen. Inténtalo de nuevo.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Imagen guardada en tu galería.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Imagen guardada exitosamente.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Imagen descargada exitosamente.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Galería abierta",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Abrir ubicación del archivo",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Abrir archivo",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "No se pudo guardar la imagen debido a la falta de permiso",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

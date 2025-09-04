@@ -41,6 +41,10 @@
   "alignLeft": "بۆ چەپ",
   "alignCenter": "بۆ ناوەڕاست",
   "alignRight": "بۆ ڕاست",
+  "alignJustify": "جوانکردن",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "پانی ڕێکبخە",
   "textDirection": "ئاڕاستەی نووسین",
   "headerStyle": "شێوەی سەر",
@@ -73,6 +77,16 @@
   "moveToNextOccurrence": "بڕۆ بۆ ڕووداوی داهاتوو",
   "savedUsingTheNetwork": "لە ڕێی تۆڕەوە پاشەکەوتکرا",
   "savedUsingLocalStorage": "لە ڕێی دیسکی ناوخۆییەوە پاشەکەوتکرا",
+  "theImageHasBeenSavedAt": "وێنەکە پاشەکەوت کرایە نێو",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "هەڵە ڕویدا لە کاتی پاشەکەوتکردنی وێنەدا",
   "pleaseEnterTextForYourLink": "تکایە دەقێک بۆ بەستەرەکەت دابنێ (بۆ نموونە، 'زیاتر بزانە')",
   "pleaseEnterTheLinkURL": "تکایە لینکێک بۆ بەستەرەکە دابنێ (بۆ نموونە، 'https://example.com')",
@@ -81,6 +95,8 @@
   "photo": "وێنە",
   "image": "وێنە",
   "caseSensitivityAndWholeWordSearch": "گەڕان بۆ تەواوی وشە",
+  "caseSensitive": "هسەتیاری پیتی گەورە و بچووک",
+  "wholeWord": "گشت ووشەکان",
   "insertImage": "دانانی وێنە",
   "pickAPhotoFromYourGallery": "وێنەیەک لە گەلەرییەکەت هەڵبژێرە",
   "takeAPhotoUsingYourCamera": "بە بەکارهێنانی کامێراکەت وێنەیەک بگرە",
@@ -88,13 +104,42 @@
   "pickAVideoFromYourGallery": "ڤیدیۆیەک لە گەلەرییەکەتەوە هەڵبژێرە",
   "recordAVideoUsingYourCamera": "بە بەکارهێنانی کامێراکەت ڤیدیۆیەک تۆمار بکە",
   "pasteAVideoUsingALink": "لینکی ڤیدیۆیەک دابنێ",
-  "alignJustify": "جوانکردن",
-  "theImageHasBeenSavedAt": "وێنەکە پاشەکەوت کرایە نێو",
-  "caseSensitive": "هسەتیاری پیتی گەورە و بچووک",
-  "wholeWord": "گشت ووشەکان",
   "close": "دایخە",
   "searchSettings": "بە ناو ئامادەکارییەکاندا بگەڕێ",
   "cut": "بڕین",
   "paste": "دانان",
-  "insertTable": "دانانی خشتە"
+  "insertTable": "دانانی خشتە",
+  "insertVideo": "Vîdyoyê têxe",
+  "errorUnexpectedSavingImage": "Dema tomarkirina wêneyê çewtiyek neçaverêkirî çêbû. Ji kerema xwe dîsa biceribînin.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Wêne li galeriya we hatî tomarkirin.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Wêne bi serkeftî hat tomarkirin.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Wêne bi serkeftî hate dakêşandin.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Galeriya Vekirî",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Cihê Pelê Veke",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Pelê Veke",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Ji ber nebûna destûrê wêne nehat tomarkirin",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

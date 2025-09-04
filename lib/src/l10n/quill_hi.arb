@@ -15,17 +15,17 @@
   "resize": "आकार बदलें",
   "width": "चौड़ाई",
   "height": "ऊंचाई",
-  "size": "Size",
-  "small": "Small",
-  "large": "Large",
-  "huge": "Huge",
-  "clear": "Clear",
-  "font": "Font",
-  "search": "Search",
-  "camera": "Camera",
-  "video": "Video",
-  "undo": "Undo",
-  "redo": "Redo",
+  "size": "आकार",
+  "small": "छोटा",
+  "large": "बड़ा",
+  "huge": "विशाल",
+  "clear": "स्पष्ट",
+  "font": "फ़ॉन्ट",
+  "search": "खोज",
+  "camera": "कैमरा",
+  "video": "वीडियो",
+  "undo": "पूर्ववत",
+  "redo": "फिर से करना",
   "fontFamily": "Sूची का नाम",
   "fontSize": "फ़ॉन्ट का आकार",
   "bold": "ताक़तवर",
@@ -41,9 +41,20 @@
   "alignLeft": "बाएं संरेखित करें",
   "alignCenter": "केंद्रित संरेखित करें",
   "alignRight": "दाएं संरेखित करें",
+  "alignJustify": "सही संरेखित करें",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "जस्टीफ़ी विन चौड़ाई",
   "textDirection": "टेक्स्ट की दिशा",
   "headerStyle": "हेडर शैली",
+  "normal": "साधारण",
+  "heading1": "हेडिंग 1",
+  "heading2": "हेडिंग 2",
+  "heading3": "हेडिंग 3",
+  "heading4": "हेडिंग 4",
+  "heading5": "हेडिंग 5",
+  "heading6": "हेडिंग 6",
   "numberedList": "संख्याबद्ध सूची",
   "bulletList": "गोली दी गई सूची",
   "checkedList": "जाँची गई सूची",
@@ -57,20 +68,26 @@
   "enterMedia": "मीडिया दर्ज करें",
   "edit": "संपादित करें",
   "apply": "लागू करें",
-  "findText": "मद को खोजें",
-  "moveToPreviousOccurrence": "पिछले घटनांतर पर जाएं",
-  "moveToNextOccurrence": "आगामी घटनांतर पर जाएं",
-  "savedUsingNetwork": "नेटवर्क का उपयोग करके सहेजा गया",
-  "savedUsingLocalStorage": "स्थानीय संग्रहण का उपयोग करके सहेजा गया",
-  "errorWhileSavingImage": "तस्वीर सहेजते समय त्रुटि",
-  "enterTextForYourLink": "उदाहरण के लिए, 'और जानें'",
-  "enterLinkURL": "उदाहरण के लिए, 'https://example.com'",
-  "enterValidImageURL": "कृपया एक मान्य छवि URL दर्ज करें",
   "hex": "हेक्स",
   "material": "सामग्री",
   "color": "रंग",
   "lineheight": "ऊंची लाईन",
+  "findText": "मद को खोजें",
+  "moveToPreviousOccurrence": "पिछले घटनांतर पर जाएं",
+  "moveToNextOccurrence": "आगामी घटनांतर पर जाएं",
   "savedUsingTheNetwork": "नेटवर्क का उपयोग करके सहेजा गया",
+  "savedUsingLocalStorage": "स्थानीय संग्रहण का उपयोग करके सहेजा गया",
+  "theImageHasBeenSavedAt": "छवि को यहाँ संग्रहीत किया गया है: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
+  "errorWhileSavingImage": "तस्वीर सहेजते समय त्रुटि",
   "pleaseEnterTextForYourLink": "कृपया अपने लिंक के लिए एक पाठ दर्ज करें (उदाहरण: 'और अधिक जानें')",
   "pleaseEnterTheLinkURL": "कृपया लिंक URL दर्ज करें (उदाहरण: 'https://example.com')",
   "pleaseEnterAValidImageURL": "कृपया एक वैध चित्र URL दर्ज करें",
@@ -78,18 +95,9 @@
   "photo": "फोटो",
   "image": "छवि",
   "caseSensitivityAndWholeWordSearch": "केस सेंसिटिविटी और पूरे शब्द की खोज",
-  "insertImage": "छवि डालें",
-  "alignJustify": "सही संरेखित करें",
-  "normal": "साधारण",
-  "heading1": "हेडिंग 1",
-  "heading2": "हेडिंग 2",
-  "heading3": "हेडिंग 3",
-  "heading4": "हेडिंग 4",
-  "heading5": "हेडिंग 5",
-  "heading6": "हेडिंग 6",
-  "theImageHasBeenSavedAt": "छवि को यहाँ संग्रहीत किया गया है: {imagePath}",
   "caseSensitive": "केस संवेदनशील",
   "wholeWord": "पूरा शब्द",
+  "insertImage": "छवि डालें",
   "pickAPhotoFromYourGallery": "अपनी गैलरी से एक फोटो चुनें",
   "takeAPhotoUsingYourCamera": "अपनी कैमरा का उपयोग करके एक फोटो लें",
   "pasteAPhotoUsingALink": "लिंक का उपयोग करके एक फोटो पेस्ट करें",
@@ -100,5 +108,42 @@
   "searchSettings": "खोज सेटिंग्स",
   "cut": "काटें",
   "paste": "पेस्ट",
-  "insertTable": "तालिका सम्मिलित करें"
+  "insertTable": "तालिका सम्मिलित करें",
+  "insertVideo": "वीडियो डालें",
+  "errorUnexpectedSavingImage": "छवि सहेजते समय एक अनपेक्षित त्रुटि हुई। कृपया पुनः प्रयास करें।",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "छवि आपकी गैलरी में सहेजी गई.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "छवि सफलतापूर्वक सहेजी गई.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "छवि सफलतापूर्वक डाउनलोड हो गई.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "गैलरी खोलें",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "फ़ाइल के स्थान को खोलें",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "खुली फाइल",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "अनुमति न मिलने के कारण चित्र सहेजा नहीं जा सका",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "savedUsingNetwork": "नेटवर्क का उपयोग करके सहेजा गया",
+  "enterTextForYourLink": "उदाहरण के लिए, 'और जानें'",
+  "enterLinkURL": "उदाहरण के लिए, 'https://example.com'",
+  "enterValidImageURL": "कृपया एक मान्य छवि URL दर्ज करें"
 }

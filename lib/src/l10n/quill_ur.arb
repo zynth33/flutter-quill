@@ -41,9 +41,20 @@
   "alignLeft": "بائیں ہم آہنگ ہوں",
   "alignCenter": "مرکز میں ہم آہنگ ہوں",
   "alignRight": "دائیں ہم آہنگ ہوں",
+  "alignJustify": "متن کو جڑائیں",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "جسٹیفائی ون چوڑائی",
   "textDirection": "متن کی سمت",
   "headerStyle": "ہیڈر کا انداز",
+  "normal": "معمول",
+  "heading1": "سرخی 1",
+  "heading2": "سرخی 2",
+  "heading3": "سرخی 3",
+  "heading4": "سرخی 4",
+  "heading5": "سرخی 5",
+  "heading6": "سرخی 6",
   "numberedList": "مرقم فہرست",
   "bulletList": "گولی فہرست",
   "checkedList": "چیک کی گئی فہرست",
@@ -57,20 +68,26 @@
   "enterMedia": "میڈیا درج کریں",
   "edit": "ترتیب دیں",
   "apply": "لگائیں",
-  "findText": "متن تلاش کریں",
-  "moveToPreviousOccurrence": "پچھلے واقعہ پر منتقل ہوں",
-  "moveToNextOccurrence": "اگلے واقعہ پر منتقل ہوں",
-  "savedUsingNetwork": "نیٹ ورک کا استعمال کر کے محفوظ ہوا",
-  "savedUsingLocalStorage": "مقامی ذخیرہ کار استعمال کر کے محفوظ ہوا",
-  "errorWhileSavingImage": "تصویر کو محفوظ کرتے وقت خطا",
-  "enterTextForYourLink": "مثال: 'مزید جانیں'",
-  "enterLinkURL": "مثال: 'https://example.com'",
-  "enterValidImageURL": "براہ کرم ایک درست تصویر URL درج کریں",
   "hex": "ہیکس",
   "material": "مواد",
   "color": "رنگ",
   "lineheight": "لکیر کی اونچائی",
+  "findText": "متن تلاش کریں",
+  "moveToPreviousOccurrence": "پچھلے واقعہ پر منتقل ہوں",
+  "moveToNextOccurrence": "اگلے واقعہ پر منتقل ہوں",
   "savedUsingTheNetwork": "نیٹ ورک کا استعمال کر کے محفوظ ہوا",
+  "savedUsingLocalStorage": "مقامی ذخیرہ کار استعمال کر کے محفوظ ہوا",
+  "theImageHasBeenSavedAt": "تصویر یہاں محفوظ کی گئی ہے: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
+  "errorWhileSavingImage": "تصویر کو محفوظ کرتے وقت خطا",
   "pleaseEnterTextForYourLink": "براہ کرم اپنے لنک کے لیے متن درج کریں (مثال کے طور پر، 'مزید جانیں')",
   "pleaseEnterTheLinkURL": "براہ کرم لنک کا URL درج کریں (مثال کے طور پر، 'https://example.com')",
   "pleaseEnterAValidImageURL": "براہ کرم ایک درست تصویر URL درج کریں",
@@ -78,18 +95,9 @@
   "photo": "تصویر",
   "image": "تصویر",
   "caseSensitivityAndWholeWordSearch": "معاملے کی حساسیت اور پورے الفاظ کی تلاش",
-  "insertImage": "تصویر داخل کریں",
-  "alignJustify": "متن کو جڑائیں",
-  "normal": "معمول",
-  "heading1": "سرخی 1",
-  "heading2": "سرخی 2",
-  "heading3": "سرخی 3",
-  "heading4": "سرخی 4",
-  "heading5": "سرخی 5",
-  "heading6": "سرخی 6",
-  "theImageHasBeenSavedAt": "تصویر یہاں محفوظ کی گئی ہے: {imagePath}",
   "caseSensitive": "بڑی اور چھوٹی حروف کے لئے حساس",
   "wholeWord": "پورا لفظ",
+  "insertImage": "تصویر داخل کریں",
   "pickAPhotoFromYourGallery": "اپنی گیلری سے تصویر منتخب کریں",
   "takeAPhotoUsingYourCamera": "اپنی کیمرہ استعمال کر کے تصویر لیں",
   "pasteAPhotoUsingALink": "لنک استعمال کر کے تصویر چسپاں کریں",
@@ -100,5 +108,42 @@
   "searchSettings": "تلاش کی ترتیبات",
   "cut": "کٹائیں",
   "paste": "چسپاں کریں",
-  "insertTable": "ٹیبل درج کریں"
+  "insertTable": "ٹیبل درج کریں",
+  "insertVideo": "ویڈیو داخل کریں۔",
+  "errorUnexpectedSavingImage": "تصویر محفوظ کرتے وقت ایک غیر متوقع خرابی پیش آگئی۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "تصویر آپ کی گیلری میں محفوظ ہو گئی۔",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "تصویر کامیابی سے محفوظ ہو گئی۔",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "تصویر کامیابی کے ساتھ ڈاؤن لوڈ ہو گئی۔",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "گیلری کھولیں۔",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "فائل لوکیشن کھولیں۔",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "فائل کھولیں۔",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "اجازت نہ ہونے کی وجہ سے تصویر کو محفوظ نہیں کیا جا سکا",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "savedUsingNetwork": "نیٹ ورک کا استعمال کر کے محفوظ ہوا",
+  "enterTextForYourLink": "مثال: 'مزید جانیں'",
+  "enterLinkURL": "مثال: 'https://example.com'",
+  "enterValidImageURL": "براہ کرم ایک درست تصویر URL درج کریں"
 }

@@ -41,9 +41,20 @@
   "alignLeft": "Выровнять по левому краю",
   "alignCenter": "Выровнять по центру",
   "alignRight": "Выровнять по правому краю",
+  "alignJustify": "Выравнивание по ширине",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Выровнять по ширине окна",
   "textDirection": "Направление текста",
   "headerStyle": "Стиль заголовка",
+  "normal": "Обычный",
+  "heading1": "Заголовок 1",
+  "heading2": "Заголовок 2",
+  "heading3": "Заголовок 3",
+  "heading4": "Заголовок 4",
+  "heading5": "Заголовок 5",
+  "heading6": "Заголовок 6",
   "numberedList": "Нумерованный список",
   "bulletList": "Маркированный список",
   "checkedList": "Список с галочками",
@@ -57,44 +68,78 @@
   "enterMedia": "Введите медиа",
   "edit": "Редактировать",
   "apply": "Применить",
+  "hex": "Шестигранник",
+  "material": "Материал",
+  "color": "Цвет",
+  "lineheight": "Высота линии",
   "findText": "Найти текст",
   "moveToPreviousOccurrence": "Перейти к предыдущему вхождению",
   "moveToNextOccurrence": "Перейти к следующему вхождению",
   "savedUsingTheNetwork": "Сохранено с использованием сети",
   "savedUsingLocalStorage": "Сохранено с использованием локального хранилища",
+  "theImageHasBeenSavedAt": "Изображение сохранено по адресу: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "Ошибка при сохранении изображения",
   "pleaseEnterTextForYourLink": "например, 'Узнать больше'",
   "pleaseEnterTheLinkURL": "например, 'https://example.com'",
   "pleaseEnterAValidImageURL": "Пожалуйста, введите действительный URL изображения",
-  "hex": "Hex",
-  "material": "Материал",
-  "color": "Цвет",
-  "lineheight": "Высота линии",
   "pleaseEnterAValidVideoURL": "Пожалуйста, введите действительный URL-адрес видео",
   "photo": "Фото",
   "image": "Изображение",
   "caseSensitivityAndWholeWordSearch": "Учет регистра и поиск по всему слову",
+  "caseSensitive": "Чувствителен к регистру",
+  "wholeWord": "Целое слово",
   "insertImage": "Вставить изображение",
   "pickAPhotoFromYourGallery": "Выберите фотографию из вашей галереи",
   "takeAPhotoUsingYourCamera": "Сделайте фотографию, используя камеру",
   "pasteAPhotoUsingALink": "Вставьте фотографию, используя ссылку",
   "pickAVideoFromYourGallery": "Выберите видео из вашей галереи",
   "recordAVideoUsingYourCamera": "Запишите видео, используя камеру",
-  "alignJustify": "Выравнивание по ширине",
-  "normal": "Обычный",
-  "heading1": "Заголовок 1",
-  "heading2": "Заголовок 2",
-  "heading3": "Заголовок 3",
-  "heading4": "Заголовок 4",
-  "heading5": "Заголовок 5",
-  "heading6": "Заголовок 6",
-  "theImageHasBeenSavedAt": "Изображение сохранено по адресу: {imagePath}",
-  "caseSensitive": "Чувствителен к регистру",
-  "wholeWord": "Целое слово",
   "pasteAVideoUsingALink": "Вставить видео по ссылке",
   "close": "Закрыть",
   "searchSettings": "Настройки поиска",
   "cut": "Вырезать",
   "paste": "Вставить",
-  "insertTable": "Вставить таблицу"
+  "insertTable": "Вставить таблицу",
+  "insertVideo": "Вставить видео",
+  "errorUnexpectedSavingImage": "При сохранении изображения произошла непредвиденная ошибка. Попробуйте ещё раз.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Изображение сохранено в вашей галерее.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Изображение успешно сохранено.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Изображение успешно загружено.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Открытая галерея",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Открыть местоположение файла",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Открыть файл",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Не удалось сохранить изображение из-за отсутствия разрешения.",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

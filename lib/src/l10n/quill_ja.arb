@@ -41,9 +41,20 @@
   "alignLeft": "左揃え",
   "alignCenter": "センターアライメント",
   "alignRight": "右揃え",
+  "alignJustify": "両端揃え",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "両端揃え",
   "textDirection": "文字方向",
   "headerStyle": "タイトルスタイル",
+  "normal": "通常",
+  "heading1": "見出し1",
+  "heading2": "見出し2",
+  "heading3": "見出し3",
+  "heading4": "見出し4",
+  "heading5": "見出し5",
+  "heading6": "見出し6",
   "numberedList": "順序付きリスト",
   "bulletList": "順序無しリスト",
   "checkedList": "チェックボックス",
@@ -57,35 +68,36 @@
   "enterMedia": "ミディアムを輸入",
   "edit": "編集",
   "apply": "応用",
+  "hex": "ヘックス",
+  "material": "材料",
+  "color": "色",
+  "lineheight": "行の高さ",
   "findText": "検索テキスト",
   "moveToPreviousOccurrence": "前のマッチ",
   "moveToNextOccurrence": "次のマッチ",
   "savedUsingTheNetwork": "ネットワークを使用して保存",
   "savedUsingLocalStorage": "ローカルストレージを使用して保存",
+  "theImageHasBeenSavedAt": "画像は次の場所に保存されました: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
   "errorWhileSavingImage": "画像の保存中にエラーが発生しました",
   "pleaseEnterTextForYourLink": "例: 'Learn more'",
   "pleaseEnterTheLinkURL": "例: 'https://example.com'",
   "pleaseEnterAValidImageURL": "有効な画像URLを入力してください",
-  "hex": "Hex",
-  "material": "Material",
-  "color": "Color",
-  "lineheight": "行の高さ",
   "pleaseEnterAValidVideoURL": "有効なビデオURLを入力してください",
   "photo": "写真",
   "image": "画像",
   "caseSensitivityAndWholeWordSearch": "大文字と小文字の区別と完全一致検索",
-  "insertImage": "画像を挿入",
-  "alignJustify": "両端揃え",
-  "normal": "通常",
-  "heading1": "見出し1",
-  "heading2": "見出し2",
-  "heading3": "見出し3",
-  "heading4": "見出し4",
-  "heading5": "見出し5",
-  "heading6": "見出し6",
-  "theImageHasBeenSavedAt": "画像は次の場所に保存されました: {imagePath}",
   "caseSensitive": "大文字と小文字を区別する",
   "wholeWord": "完全一致",
+  "insertImage": "画像を挿入",
   "pickAPhotoFromYourGallery": "ギャラリーから写真を選択",
   "takeAPhotoUsingYourCamera": "カメラで写真を撮る",
   "pasteAPhotoUsingALink": "リンクを使用して写真を貼り付ける",
@@ -96,5 +108,38 @@
   "searchSettings": "検索設定",
   "cut": "切り取り",
   "paste": "貼り付け",
-  "insertTable": "テーブルを挿入"
+  "insertTable": "テーブルを挿入",
+  "insertVideo": "ビデオを挿入",
+  "errorUnexpectedSavingImage": "画像の保存中に予期しないエラーが発生しました。もう一度お試しください。",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "画像をギャラリーに保存しました。",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "画像が正常に保存されました。",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "画像が正常にダウンロードされました。",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "ギャラリーを開く",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "ファイルの場所を開く",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "ファイルを開く",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "権限がないため画像を保存できませんでした",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  }
 }

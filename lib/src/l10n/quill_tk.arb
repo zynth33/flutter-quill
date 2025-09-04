@@ -41,9 +41,20 @@
   "alignLeft": "Çepe deňleşdir",
   "alignCenter": "Orta deňleşdir",
   "alignRight": "Saga deňleşdir",
-  "justifyWinWidth": "Justify win width",
+  "alignJustify": "Düzgünlyä",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
+  "justifyWinWidth": "Wineňiş giňligini esaslandyryň",
   "textDirection": "Tekst ugry",
   "headerStyle": "Sözbaşy stili",
+  "normal": "Halklaýyn",
+  "heading1": "Başlyk 1",
+  "heading2": "Başlyk 2",
+  "heading3": "Başlyk 3",
+  "heading4": "Başlyk 4",
+  "heading5": "Başlyk 5",
+  "heading6": "Başlyk 6",
   "numberedList": "Sanly sanaw",
   "bulletList": "Okly sanawy",
   "checkedList": "Tikli sanaw",
@@ -64,29 +75,29 @@
   "findText": "Tekst tapyň",
   "moveToPreviousOccurrence": "Öňki hadysa geçiň",
   "moveToNextOccurrence": "Indiki hadysa geçiň",
-  "savedUsingNetwork": "Saved using the network",
-  "savedUsingLocalStorage": "Saved using the local storage",
-  "errorWhileSavingImage": "Error while saving image",
+  "savedUsingTheNetwork": "Ulgama ulanyp saklanan",
+  "savedUsingLocalStorage": "Storageerli ammar ulanyp tygşytlandy",
+  "theImageHasBeenSavedAt": "Surat şu ýerde saklandy: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
+  "errorWhileSavingImage": "Suraty ýatda saklamakda ýalňyşlyk",
   "pleaseEnterTextForYourLink": "Güýz öwrenmek)",
   "pleaseEnterTheLinkURL": "https://example.com",
-  "pleaseEnterAValidImageURL": "Please enter a valid image URL",
-  "savedUsingTheNetwork": "Ulgama ulanyp saklanan",
+  "pleaseEnterAValidImageURL": "Dogry surat URL-ni giriziň",
   "pleaseEnterAValidVideoURL": "Lütfen güýjük wideo URL giriziň",
   "photo": "Surat",
   "image": "Surat",
   "caseSensitivityAndWholeWordSearch": "Iňkisar we iň oňg söz gözleýinç",
-  "insertImage": "Surat goş",
-  "alignJustify": "Düzgünlyä",
-  "normal": "Halklaýyn",
-  "heading1": "Başlyk 1",
-  "heading2": "Başlyk 2",
-  "heading3": "Başlyk 3",
-  "heading4": "Başlyk 4",
-  "heading5": "Başlyk 5",
-  "heading6": "Başlyk 6",
-  "theImageHasBeenSavedAt": "Surat şu ýerde saklandy: {imagePath}",
   "caseSensitive": "Yazgy käbirlik",
   "wholeWord": "Doly söz",
+  "insertImage": "Surat goş",
   "pickAPhotoFromYourGallery": "Galereýadan surat saýla",
   "takeAPhotoUsingYourCamera": "Kameranyňyzy ulanyp surat çek",
   "pasteAPhotoUsingALink": "Baglanyşyk ulanyp surat goý",
@@ -97,5 +108,39 @@
   "searchSettings": "Gözleg sazlamalary",
   "cut": "Kes",
   "paste": "Goý",
-  "insertTable": "Jadwal goş"
+  "insertTable": "Jadwal goş",
+  "insertVideo": "Wideo goýuň",
+  "errorUnexpectedSavingImage": "Suraty ýatda saklamakda garaşylmadyk ýalňyşlyk ýüze çykdy. Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Surat galereýaňyzda saklandy",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Surat üstünlikli saklandy.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Surat üstünlikli göçürildi.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Galereýa açyň",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Faýlyň ýerleşýän ýerini açyň",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Faýly açyň",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Rugsat ýoklugy sebäpli suraty saklap bolmady",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "savedUsingNetwork": "Saved using the network"
 }

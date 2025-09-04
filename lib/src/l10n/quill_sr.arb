@@ -20,10 +20,10 @@
   "large": "Veliko",
   "huge": "Ogromno",
   "clear": "Obriši",
-  "font": "Font",
+  "font": "Фонт",
   "search": "Pretraga",
   "camera": "Kamera",
-  "video": "Video",
+  "video": "Видео",
   "undo": "Poništi",
   "redo": "Ponovo",
   "fontFamily": "Porodica fonta",
@@ -41,9 +41,20 @@
   "alignLeft": "Poravnanje levo",
   "alignCenter": "Poravnanje centar",
   "alignRight": "Poravnanje desno",
+  "alignJustify": "Poravnaj",
+  "@alignJustify": {
+    "description": "Justify the text over the full window width"
+  },
   "justifyWinWidth": "Centriraj širinu prozora",
   "textDirection": "Smer teksta",
   "headerStyle": "Stil zaglavlja",
+  "normal": "Normalno",
+  "heading1": "Naslov 1",
+  "heading2": "Naslov 2",
+  "heading3": "Naslov 3",
+  "heading4": "Naslov 4",
+  "heading5": "Naslov 5",
+  "heading6": "Naslov 6",
   "numberedList": "Numerisana lista",
   "bulletList": "Lista sa znakovima",
   "checkedList": "Proverena lista",
@@ -57,20 +68,26 @@
   "enterMedia": "Unesi medij",
   "edit": "Uredi",
   "apply": "Primeni",
-  "findText": "Nađi tekst",
-  "moveToPreviousOccurrence": "Idi na prethodno pojavljivanje",
-  "moveToNextOccurrence": "Idi na sledeće pojavljivanje",
-  "savedUsingNetwork": "Sačuvano korišćenjem mreže",
-  "savedUsingLocalStorage": "Sačuvano korišćenjem lokalnog skladišta",
-  "errorWhileSavingImage": "Greška pri čuvanju slike",
-  "enterTextForYourLink": "Na primer, 'Saznajte više'",
-  "enterLinkURL": "Na primer, 'https://example.com'",
-  "enterValidImageURL": "Unesite validan URL slike",
-  "hex": "Hex",
+  "hex": "Хексадецимални",
   "material": "Materijal",
   "color": "Boja",
   "lineheight": "Visina linije",
+  "findText": "Nađi tekst",
+  "moveToPreviousOccurrence": "Idi na prethodno pojavljivanje",
+  "moveToNextOccurrence": "Idi na sledeće pojavljivanje",
   "savedUsingTheNetwork": "Sačuvano korišćenjem mreže",
+  "savedUsingLocalStorage": "Sačuvano korišćenjem lokalnog skladišta",
+  "theImageHasBeenSavedAt": "Slika je sačuvana na: {imagePath}",
+  "@theImageHasBeenSavedAt": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "imagePath": {
+        "type": "String",
+        "example": "path/to/location"
+      }
+    }
+  },
+  "errorWhileSavingImage": "Greška pri čuvanju slike",
   "pleaseEnterTextForYourLink": "Unesite tekst za svoj link (na primer, 'Saznajte više')",
   "pleaseEnterTheLinkURL": "Unesite URL linka (na primer, 'https://example.com')",
   "pleaseEnterAValidImageURL": "Unesite važeći URL slike",
@@ -78,18 +95,9 @@
   "photo": "Foto",
   "image": "Slika",
   "caseSensitivityAndWholeWordSearch": "Osetljivost na velika i mala slova i potraga za celom rečju",
-  "insertImage": "Umetni sliku",
-  "alignJustify": "Poravnaj",
-  "normal": "Normalno",
-  "heading1": "Naslov 1",
-  "heading2": "Naslov 2",
-  "heading3": "Naslov 3",
-  "heading4": "Naslov 4",
-  "heading5": "Naslov 5",
-  "heading6": "Naslov 6",
-  "theImageHasBeenSavedAt": "Slika je sačuvana na: {imagePath}",
   "caseSensitive": "Razlikovati velika i mala slova",
   "wholeWord": "Cela reč",
+  "insertImage": "Umetni sliku",
   "pickAPhotoFromYourGallery": "Izaberite sliku iz vaše galerije",
   "takeAPhotoUsingYourCamera": "Napravite fotografiju koristeći vašu kameru",
   "pasteAPhotoUsingALink": "Zalepite sliku koristeći link",
@@ -100,5 +108,42 @@
   "searchSettings": "Podešavanja pretrage",
   "cut": "Iseci",
   "paste": "Nalepi",
-  "insertTable": "Ubaci tabelu"
+  "insertTable": "Ubaci tabelu",
+  "insertVideo": "Уметни видео",
+  "errorUnexpectedSavingImage": "Дошло је до неочекиване грешке приликом чувања слике. Молимо покушајте поново.",
+  "@errorUnexpectedSavingImage": {
+    "description": "A generic error message shown when an image cannot be saved due to an unknown issue"
+  },
+  "successImageSavedGallery": "Слика је сачувана у вашој галерији.",
+  "@successImageSavedGallery": {
+    "description": "Message shown when an image is successfully saved to the system gallery"
+  },
+  "successImageSaved": "Слика је успешно сачувана.",
+  "@successImageSaved": {
+    "description": "Message shown on desktop when an image is successfully saved. The user is prompted to open the file location"
+  },
+  "successImageDownloaded": "Слика је успешно преузета.",
+  "@successImageDownloaded": {
+    "description": "Message shown on web when an image is successfully downloaded"
+  },
+  "openGallery": "Отвори галерију",
+  "@openGallery": {
+    "description": "Label for the button that opens the system gallery"
+  },
+  "openFileLocation": "Отвори локацију датотеке",
+  "@openFileLocation": {
+    "description": "Label for the button that opens the file explorer to the file's location"
+  },
+  "openFile": "Отвори датотеку",
+  "@openFile": {
+    "description": "Label for the button that opens the file"
+  },
+  "saveImagePermissionDenied": "Није могуће сачувати слику због недостајуће дозволе",
+  "@saveImagePermissionDenied": {
+    "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "savedUsingNetwork": "Sačuvano korišćenjem mreže",
+  "enterTextForYourLink": "Na primer, 'Saznajte više'",
+  "enterLinkURL": "Na primer, 'https://example.com'",
+  "enterValidImageURL": "Unesite validan URL slike"
 }
