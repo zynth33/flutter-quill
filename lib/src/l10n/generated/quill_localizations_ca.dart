@@ -307,31 +307,31 @@ class FlutterQuillLocalizationsCa extends FlutterQuillLocalizations {
   String get insertTable => 'Insereix taula';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Insereix vídeo';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'S\'ha produït un error inesperat en desar la imatge. Torna-ho a provar.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Imatge desada a la teva galeria.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Imatge desada correctament.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Imatge descarregada correctament.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Galeria Oberta';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Obre la ubicació del fitxer';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Obre el fitxer';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'No s\'ha pogut desar la imatge perquè faltaven permisos.';
 }

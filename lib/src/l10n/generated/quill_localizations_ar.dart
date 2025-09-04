@@ -204,10 +204,10 @@ class FlutterQuillLocalizationsAr extends FlutterQuillLocalizations {
   String get apply => 'تطبيق';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'عرافة';
 
   @override
-  String get material => 'Material';
+  String get material => 'مادة';
 
   @override
   String get color => 'اللون';
@@ -303,31 +303,32 @@ class FlutterQuillLocalizationsAr extends FlutterQuillLocalizations {
   String get insertTable => 'إدراج جدول';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'إدراج الفيديو';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'حدث خطأ غير متوقع أثناء حفظ الصورة. يُرجى المحاولة مرة أخرى.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'تم حفظ الصورة في معرض الصور الخاص بك.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'تم حفظ الصورة بنجاح.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'تم تحميل الصورة بنجاح.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'افتح المعرض';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'موقع الملف المفتوح';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'فتح الملف';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'لم أتمكن من حفظ الصورة بسبب عدم وجود إذن';
 }

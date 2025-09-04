@@ -12,7 +12,7 @@ class FlutterQuillLocalizationsNl extends FlutterQuillLocalizations {
   String get pasteLink => 'Plak een link';
 
   @override
-  String get ok => 'Ok';
+  String get ok => 'OK';
 
   @override
   String get selectColor => 'Selecteer kleur';
@@ -57,22 +57,22 @@ class FlutterQuillLocalizationsNl extends FlutterQuillLocalizations {
   String get size => 'Grootte';
 
   @override
-  String get small => 'Small';
+  String get small => 'Klein';
 
   @override
-  String get large => 'Large';
+  String get large => 'Groot';
 
   @override
-  String get huge => 'Huge';
+  String get huge => 'Enorm';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'Duidelijk';
 
   @override
-  String get font => 'Font';
+  String get font => 'Lettertype';
 
   @override
-  String get search => 'Search';
+  String get search => 'Zoekopdracht';
 
   @override
   String get camera => 'Camera';
@@ -81,67 +81,67 @@ class FlutterQuillLocalizationsNl extends FlutterQuillLocalizations {
   String get video => 'Video';
 
   @override
-  String get undo => 'Undo';
+  String get undo => 'Ongedaan maken';
 
   @override
-  String get redo => 'Redo';
+  String get redo => 'Opnieuw doen';
 
   @override
-  String get fontFamily => 'Font family';
+  String get fontFamily => 'Lettertypefamilie';
 
   @override
-  String get fontSize => 'Font size';
+  String get fontSize => 'Lettergrootte';
 
   @override
-  String get bold => 'Bold';
+  String get bold => 'Vetgedrukt';
 
   @override
-  String get subscript => 'Subscript';
+  String get subscript => 'Onderschrift';
 
   @override
   String get superscript => 'Superscript';
 
   @override
-  String get italic => 'Italic';
+  String get italic => 'Cursief';
 
   @override
-  String get underline => 'Underline';
+  String get underline => 'Onderstrepen';
 
   @override
-  String get strikeThrough => 'Strike through';
+  String get strikeThrough => 'Doorhalen';
 
   @override
-  String get inlineCode => 'Inline code';
+  String get inlineCode => 'Inline-code';
 
   @override
-  String get fontColor => 'Font color';
+  String get fontColor => 'Letterkleur';
 
   @override
-  String get backgroundColor => 'Background color';
+  String get backgroundColor => 'Achtergrondkleur';
 
   @override
-  String get clearFormat => 'Clear format';
+  String get clearFormat => 'Duidelijke opmaak';
 
   @override
-  String get alignLeft => 'Align left';
+  String get alignLeft => 'Links uitlijnen';
 
   @override
-  String get alignCenter => 'Align center';
+  String get alignCenter => 'Centreren';
 
   @override
-  String get alignRight => 'Align right';
+  String get alignRight => 'Rechts uitlijnen';
 
   @override
   String get alignJustify => 'Uitvullen';
 
   @override
-  String get justifyWinWidth => 'Justify win width';
+  String get justifyWinWidth => 'Winbreedte rechtvaardigen';
 
   @override
-  String get textDirection => 'Text direction';
+  String get textDirection => 'Tekstrichting';
 
   @override
-  String get headerStyle => 'Header style';
+  String get headerStyle => 'Koptekststijl';
 
   @override
   String get normal => 'Normaal';
@@ -165,43 +165,43 @@ class FlutterQuillLocalizationsNl extends FlutterQuillLocalizations {
   String get heading6 => 'Kop 6';
 
   @override
-  String get numberedList => 'Numbered list';
+  String get numberedList => 'Genummerde lijst';
 
   @override
-  String get bulletList => 'Bullet list';
+  String get bulletList => 'Opsommingslijst';
 
   @override
-  String get checkedList => 'Checked list';
+  String get checkedList => 'Gecontroleerde lijst';
 
   @override
-  String get codeBlock => 'Code block';
+  String get codeBlock => 'Codeblok';
 
   @override
-  String get quote => 'Quote';
+  String get quote => 'Citaat';
 
   @override
-  String get increaseIndent => 'Increase indent';
+  String get increaseIndent => 'Inspringing vergroten';
 
   @override
-  String get decreaseIndent => 'Decrease indent';
+  String get decreaseIndent => 'Inspringing verkleinen';
 
   @override
-  String get insertURL => 'Insert URL';
+  String get insertURL => 'URL invoegen';
 
   @override
-  String get visitLink => 'Visit link';
+  String get visitLink => 'Bezoek link';
 
   @override
-  String get enterLink => 'Enter link';
+  String get enterLink => 'Link invoeren';
 
   @override
-  String get enterMedia => 'Enter media';
+  String get enterMedia => 'Voer media in';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Bewerking';
 
   @override
-  String get apply => 'Apply';
+  String get apply => 'Toepassen';
 
   @override
   String get hex => 'Hex';
@@ -216,19 +216,20 @@ class FlutterQuillLocalizationsNl extends FlutterQuillLocalizations {
   String get lineheight => 'Lijnhoogte';
 
   @override
-  String get findText => 'Find text';
+  String get findText => 'Tekst zoeken';
 
   @override
-  String get moveToPreviousOccurrence => 'Move to previous occurrence';
+  String get moveToPreviousOccurrence => 'Naar vorige gebeurtenis gaan';
 
   @override
-  String get moveToNextOccurrence => 'Move to next occurrence';
+  String get moveToNextOccurrence => 'Naar volgende gebeurtenis gaan';
 
   @override
   String get savedUsingTheNetwork => 'Opgeslagen via het netwerk';
 
   @override
-  String get savedUsingLocalStorage => 'Saved using the local storage';
+  String get savedUsingLocalStorage =>
+      'Opgeslagen met behulp van de lokale opslag';
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
@@ -236,7 +237,7 @@ class FlutterQuillLocalizationsNl extends FlutterQuillLocalizations {
   }
 
   @override
-  String get errorWhileSavingImage => 'Error while saving image';
+  String get errorWhileSavingImage => 'Fout bij het opslaan van de afbeelding';
 
   @override
   String get pleaseEnterTextForYourLink =>
@@ -307,31 +308,31 @@ class FlutterQuillLocalizationsNl extends FlutterQuillLocalizations {
   String get insertTable => 'Tabel invoegen';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Video invoegen';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Er is een onverwachte fout opgetreden bij het opslaan van de afbeelding. Probeer het opnieuw.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Afbeelding opgeslagen in uw galerij.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Afbeelding succesvol opgeslagen.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Afbeelding succesvol gedownload.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Open Galerij';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Open bestandslocatie';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Open bestand';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'De afbeelding kon niet worden opgeslagen vanwege ontbrekende toestemming';
 }

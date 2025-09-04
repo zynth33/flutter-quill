@@ -12,7 +12,7 @@ class FlutterQuillLocalizationsDa extends FlutterQuillLocalizations {
   String get pasteLink => 'Indsæt link';
 
   @override
-  String get ok => 'Ok';
+  String get ok => 'Okay';
 
   @override
   String get selectColor => 'Vælg farve';
@@ -21,7 +21,7 @@ class FlutterQuillLocalizationsDa extends FlutterQuillLocalizations {
   String get gallery => 'Galleri';
 
   @override
-  String get link => 'Link';
+  String get link => 'Forbindelse';
 
   @override
   String get open => 'Åben';
@@ -42,106 +42,106 @@ class FlutterQuillLocalizationsDa extends FlutterQuillLocalizations {
   String get saved => 'Gemt';
 
   @override
-  String get text => 'Text';
+  String get text => 'Tekst';
 
   @override
-  String get resize => 'Resize';
+  String get resize => 'Ændr størrelse';
 
   @override
-  String get width => 'Width';
+  String get width => 'Bredde';
 
   @override
-  String get height => 'Height';
+  String get height => 'Højde';
 
   @override
-  String get size => 'Size';
+  String get size => 'Størrelse';
 
   @override
-  String get small => 'Small';
+  String get small => 'Lille';
 
   @override
-  String get large => 'Large';
+  String get large => 'Stor';
 
   @override
-  String get huge => 'Huge';
+  String get huge => 'Kæmpe';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'Klar';
 
   @override
-  String get font => 'Font';
+  String get font => 'Skrifttype';
 
   @override
-  String get search => 'Search';
+  String get search => 'Søge';
 
   @override
-  String get camera => 'Camera';
+  String get camera => 'Kamera';
 
   @override
   String get video => 'Video';
 
   @override
-  String get undo => 'Undo';
+  String get undo => 'Fortryd';
 
   @override
-  String get redo => 'Redo';
+  String get redo => 'Gentag';
 
   @override
-  String get fontFamily => 'Font family';
+  String get fontFamily => 'Skrifttypefamilie';
 
   @override
-  String get fontSize => 'Font size';
+  String get fontSize => 'Skriftstørrelse';
 
   @override
-  String get bold => 'Bold';
+  String get bold => 'Dristig';
 
   @override
-  String get subscript => 'Subscript';
+  String get subscript => 'Subskript';
 
   @override
-  String get superscript => 'Superscript';
+  String get superscript => 'Hævet skrift';
 
   @override
-  String get italic => 'Italic';
+  String get italic => 'Kursiv';
 
   @override
-  String get underline => 'Underline';
+  String get underline => 'Understrege';
 
   @override
-  String get strikeThrough => 'Strike through';
+  String get strikeThrough => 'Gennemstrege';
 
   @override
-  String get inlineCode => 'Inline code';
+  String get inlineCode => 'Inline-kode';
 
   @override
-  String get fontColor => 'Font color';
+  String get fontColor => 'Skriftfarve';
 
   @override
-  String get backgroundColor => 'Background color';
+  String get backgroundColor => 'Baggrundsfarve';
 
   @override
-  String get clearFormat => 'Clear format';
+  String get clearFormat => 'Ryd format';
 
   @override
-  String get alignLeft => 'Align left';
+  String get alignLeft => 'Juster til venstre';
 
   @override
-  String get alignCenter => 'Align center';
+  String get alignCenter => 'Juster center';
 
   @override
-  String get alignRight => 'Align right';
+  String get alignRight => 'Juster til højre';
 
   @override
   String get alignJustify => 'Juster tekst';
 
   @override
-  String get justifyWinWidth => 'Justify win width';
+  String get justifyWinWidth => 'Juster gevinstbredde';
 
   @override
-  String get textDirection => 'Text direction';
+  String get textDirection => 'Tekstretning';
 
   @override
-  String get headerStyle => 'Header style';
+  String get headerStyle => 'Overskriftsstil';
 
   @override
   String get normal => 'Normal';
@@ -165,43 +165,43 @@ class FlutterQuillLocalizationsDa extends FlutterQuillLocalizations {
   String get heading6 => 'Overskrift 6';
 
   @override
-  String get numberedList => 'Numbered list';
+  String get numberedList => 'Nummereret liste';
 
   @override
-  String get bulletList => 'Bullet list';
+  String get bulletList => 'Punktliste';
 
   @override
-  String get checkedList => 'Checked list';
+  String get checkedList => 'Tjekliste';
 
   @override
-  String get codeBlock => 'Code block';
+  String get codeBlock => 'Kodeblok';
 
   @override
-  String get quote => 'Quote';
+  String get quote => 'Citere';
 
   @override
-  String get increaseIndent => 'Increase indent';
+  String get increaseIndent => 'Øg indrykning';
 
   @override
-  String get decreaseIndent => 'Decrease indent';
+  String get decreaseIndent => 'Formindsk indrykning';
 
   @override
-  String get insertURL => 'Insert URL';
+  String get insertURL => 'Indsæt URL';
 
   @override
-  String get visitLink => 'Visit link';
+  String get visitLink => 'Besøg linket';
 
   @override
-  String get enterLink => 'Enter link';
+  String get enterLink => 'Indtast link';
 
   @override
-  String get enterMedia => 'Enter media';
+  String get enterMedia => 'Indtast medier';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Redigere';
 
   @override
-  String get apply => 'Apply';
+  String get apply => 'Anvende';
 
   @override
   String get hex => 'Hex';
@@ -216,19 +216,19 @@ class FlutterQuillLocalizationsDa extends FlutterQuillLocalizations {
   String get lineheight => 'altezza della linea';
 
   @override
-  String get findText => 'Find text';
+  String get findText => 'Find tekst';
 
   @override
-  String get moveToPreviousOccurrence => 'Move to previous occurrence';
+  String get moveToPreviousOccurrence => 'Flyt til forrige forekomst';
 
   @override
-  String get moveToNextOccurrence => 'Move to next occurrence';
+  String get moveToNextOccurrence => 'Gå til næste forekomst';
 
   @override
-  String get savedUsingTheNetwork => 'Saved using the network';
+  String get savedUsingTheNetwork => 'Gemt via netværket';
 
   @override
-  String get savedUsingLocalStorage => 'Saved using the local storage';
+  String get savedUsingLocalStorage => 'Gemt ved hjælp af den lokale lagring';
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
@@ -236,7 +236,7 @@ class FlutterQuillLocalizationsDa extends FlutterQuillLocalizations {
   }
 
   @override
-  String get errorWhileSavingImage => 'Error while saving image';
+  String get errorWhileSavingImage => 'Fejl under lagring af billede';
 
   @override
   String get pleaseEnterTextForYourLink => 'e.g., \'Learn more\'';
@@ -245,7 +245,8 @@ class FlutterQuillLocalizationsDa extends FlutterQuillLocalizations {
   String get pleaseEnterTheLinkURL => 'e.g., \'https://example.com\'';
 
   @override
-  String get pleaseEnterAValidImageURL => 'Please enter a valid image URL';
+  String get pleaseEnterAValidImageURL =>
+      'Indtast venligst en gyldig billed-URL';
 
   @override
   String get pleaseEnterAValidVideoURL => 'Angiv en gyldig video-URL';
@@ -303,31 +304,31 @@ class FlutterQuillLocalizationsDa extends FlutterQuillLocalizations {
   String get insertTable => 'Indsæt tabel';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Indsæt video';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Der opstod en uventet fejl under lagring af billedet. Prøv igen.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Billede gemt i dit galleri.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Billedet er gemt.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Billedet er downloadet.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Åbn galleri';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Åbn filplacering';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Åbn fil';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Billedet kunne ikke gemmes på grund af manglende tilladelser';
 }

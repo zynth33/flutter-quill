@@ -204,10 +204,10 @@ class FlutterQuillLocalizationsNe extends FlutterQuillLocalizations {
   String get apply => 'लागू';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'हेक्स';
 
   @override
-  String get material => 'Material';
+  String get material => 'सामाग्री';
 
   @override
   String get color => 'रङ';
@@ -309,31 +309,32 @@ class FlutterQuillLocalizationsNe extends FlutterQuillLocalizations {
   String get insertTable => 'तालिका समावेश गर्नुहोस्';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'भिडियो घुसाउनुहोस्';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'छवि बचत गर्दा एउटा अनपेक्षित त्रुटि भयो। कृपया फेरि प्रयास गर्नुहोस्।';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'छवि तपाईंको ग्यालरीमा सुरक्षित गरियो।';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'छवि सफलतापूर्वक सुरक्षित गरियो।';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'छवि सफलतापूर्वक डाउनलोड गरियो।';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'ग्यालरी खोल्नुहोस्';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'फाइल स्थान खोल्नुहोस्';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'फाइल खोल्नुहोस्';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'अनुमति नपाएको कारणले गर्दा छवि सुरक्षित गर्न सकिएन।';
 }

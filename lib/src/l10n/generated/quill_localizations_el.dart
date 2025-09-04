@@ -310,31 +310,33 @@ class FlutterQuillLocalizationsEl extends FlutterQuillLocalizations {
   String get insertTable => 'Εισαγωγή πίνακα';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Εισαγωγή βίντεο';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Παρουσιάστηκε ένα μη αναμενόμενο σφάλμα κατά την αποθήκευση της εικόνας. Δοκιμάστε ξανά.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'Η εικόνα αποθηκεύτηκε στη συλλογή σας.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Η εικόνα αποθηκεύτηκε με επιτυχία.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded =>
+      'Η λήψη της εικόνας ολοκληρώθηκε με επιτυχία.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Άνοιγμα Συλλογής';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Άνοιγμα τοποθεσίας αρχείου';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Άνοιγμα αρχείου';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Δεν ήταν δυνατή η αποθήκευση της εικόνας λόγω έλλειψης άδειας';
 }

@@ -12,7 +12,7 @@ class FlutterQuillLocalizationsCs extends FlutterQuillLocalizations {
   String get pasteLink => 'Vložit odkaz';
 
   @override
-  String get ok => 'Ok';
+  String get ok => 'Dobře';
 
   @override
   String get selectColor => 'Vybrat barvu';
@@ -204,10 +204,10 @@ class FlutterQuillLocalizationsCs extends FlutterQuillLocalizations {
   String get apply => 'Použít';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Šestiúhelník';
 
   @override
-  String get material => 'Material';
+  String get material => 'Materiál';
 
   @override
   String get color => 'Barva';
@@ -305,31 +305,31 @@ class FlutterQuillLocalizationsCs extends FlutterQuillLocalizations {
   String get insertTable => 'Vložit tabulku';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Vložit video';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Při ukládání obrázku došlo k neočekávané chybě. Zkuste to prosím znovu.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Obrázek uložen do vaší galerie.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Obrázek byl úspěšně uložen.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Obrázek byl úspěšně stažen.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Otevřít galerii';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Otevřít umístění souboru';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Otevřít soubor';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Obrázek se nepodařilo uložit z důvodu chybějícího oprávnění.';
 }

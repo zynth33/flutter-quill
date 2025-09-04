@@ -310,27 +310,28 @@ class FlutterQuillLocalizationsKm extends FlutterQuillLocalizations {
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'កំហុសដែលមិននឹកស្មានដល់បានកើតឡើង ខណៈពេលរក្សាទុករូបភាព។ សូមព្យាយាមម្តងទៀត។';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'រូបភាពត្រូវបានរក្សាទុកក្នុងវិចិត្រសាលរបស់អ្នក។';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'រូបភាពត្រូវបានរក្សាទុកដោយជោគជ័យ។';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'រូបភាពត្រូវបានទាញយកដោយជោគជ័យ។';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'បើកវិចិត្រសាល';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'បើកទីតាំងឯកសារ';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'បើកឯកសារ';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'មិនអាចរក្សាទុករូបភាពបានទេ ដោយសារខ្វះការអនុញ្ញាត';
 }

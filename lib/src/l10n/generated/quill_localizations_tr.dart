@@ -42,7 +42,7 @@ class FlutterQuillLocalizationsTr extends FlutterQuillLocalizations {
   String get saved => 'Kaydedildi';
 
   @override
-  String get text => 'Text';
+  String get text => 'Metin';
 
   @override
   String get resize => 'Yeniden Boyutlandır';
@@ -111,7 +111,7 @@ class FlutterQuillLocalizationsTr extends FlutterQuillLocalizations {
   String get strikeThrough => 'Üsti Çizili';
 
   @override
-  String get inlineCode => 'Inline code';
+  String get inlineCode => 'Satır içi kod';
 
   @override
   String get fontColor => 'Yazı Rengi';
@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsTr extends FlutterQuillLocalizations {
   String get apply => 'Uygula';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Altıgen';
 
   @override
   String get material => 'Malzeme';
@@ -216,19 +216,19 @@ class FlutterQuillLocalizationsTr extends FlutterQuillLocalizations {
   String get lineheight => 'Satır yüksekliği';
 
   @override
-  String get findText => 'Find text';
+  String get findText => 'Metni bul';
 
   @override
-  String get moveToPreviousOccurrence => 'Move to previous occurrence';
+  String get moveToPreviousOccurrence => 'Önceki oluşuma geç';
 
   @override
-  String get moveToNextOccurrence => 'Move to next occurrence';
+  String get moveToNextOccurrence => 'Bir sonraki olaya geç';
 
   @override
-  String get savedUsingTheNetwork => 'Saved using the network';
+  String get savedUsingTheNetwork => 'Ağ kullanılarak kaydedildi';
 
   @override
-  String get savedUsingLocalStorage => 'Saved using the local storage';
+  String get savedUsingLocalStorage => 'Yerel depolama kullanılarak kaydedildi';
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
@@ -236,7 +236,7 @@ class FlutterQuillLocalizationsTr extends FlutterQuillLocalizations {
   }
 
   @override
-  String get errorWhileSavingImage => 'Error while saving image';
+  String get errorWhileSavingImage => 'Görüntü kaydedilirken hata oluştu';
 
   @override
   String get pleaseEnterTextForYourLink => 'e.g., \'Learn more\'';
@@ -245,7 +245,8 @@ class FlutterQuillLocalizationsTr extends FlutterQuillLocalizations {
   String get pleaseEnterTheLinkURL => 'e.g., \'https://example.com\'';
 
   @override
-  String get pleaseEnterAValidImageURL => 'Please enter a valid image URL';
+  String get pleaseEnterAValidImageURL =>
+      'Lütfen geçerli bir resim URL\'si girin';
 
   @override
   String get pleaseEnterAValidVideoURL =>
@@ -306,31 +307,31 @@ class FlutterQuillLocalizationsTr extends FlutterQuillLocalizations {
   String get insertTable => 'Tablo ekle';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Video ekle';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Görüntü kaydedilirken beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Resim galerinize kaydedildi.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Resim başarıyla kaydedildi.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Resim başarıyla indirildi.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Açık Galeri';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Dosya Konumunu Aç';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Dosyayı Aç';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Eksik izin nedeniyle görüntü kaydedilemedi';
 }

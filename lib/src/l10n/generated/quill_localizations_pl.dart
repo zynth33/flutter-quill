@@ -21,7 +21,7 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
   String get gallery => 'Galeria';
 
   @override
-  String get link => 'Link';
+  String get link => 'Połączyć';
 
   @override
   String get open => 'Otwórz';
@@ -45,103 +45,103 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
   String get text => 'Tekst';
 
   @override
-  String get resize => 'Resize';
+  String get resize => 'Zmień rozmiar';
 
   @override
-  String get width => 'Width';
+  String get width => 'Szerokość';
 
   @override
-  String get height => 'Height';
+  String get height => 'Wysokość';
 
   @override
-  String get size => 'Size';
+  String get size => 'Rozmiar';
 
   @override
-  String get small => 'Small';
+  String get small => 'Mały';
 
   @override
-  String get large => 'Large';
+  String get large => 'Duży';
 
   @override
-  String get huge => 'Huge';
+  String get huge => 'Ogromny';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'Jasne';
 
   @override
-  String get font => 'Font';
+  String get font => 'Chrzcielnica';
 
   @override
-  String get search => 'Search';
+  String get search => 'Szukaj';
 
   @override
-  String get camera => 'Camera';
+  String get camera => 'Kamera';
 
   @override
-  String get video => 'Video';
+  String get video => 'Wideo';
 
   @override
-  String get undo => 'Undo';
+  String get undo => 'Anulować';
 
   @override
-  String get redo => 'Redo';
+  String get redo => 'Przerobić';
 
   @override
-  String get fontFamily => 'Font family';
+  String get fontFamily => 'Rodzina czcionek';
 
   @override
-  String get fontSize => 'Font size';
+  String get fontSize => 'Rozmiar czcionki';
 
   @override
-  String get bold => 'Bold';
+  String get bold => 'Pogrubiony';
 
   @override
-  String get subscript => 'Subscript';
+  String get subscript => 'Indeks dolny';
 
   @override
-  String get superscript => 'Superscript';
+  String get superscript => 'Napisany u góry';
 
   @override
-  String get italic => 'Italic';
+  String get italic => 'italski';
 
   @override
-  String get underline => 'Underline';
+  String get underline => 'Podkreślać';
 
   @override
-  String get strikeThrough => 'Strike through';
+  String get strikeThrough => 'Przekreślić';
 
   @override
-  String get inlineCode => 'Inline code';
+  String get inlineCode => 'Kod wbudowany';
 
   @override
-  String get fontColor => 'Font color';
+  String get fontColor => 'Kolor czcionki';
 
   @override
-  String get backgroundColor => 'Background color';
+  String get backgroundColor => 'Kolor tła';
 
   @override
-  String get clearFormat => 'Clear format';
+  String get clearFormat => 'Wyczyść format';
 
   @override
-  String get alignLeft => 'Align left';
+  String get alignLeft => 'Wyrównaj do lewej';
 
   @override
-  String get alignCenter => 'Align center';
+  String get alignCenter => 'Wyrównaj do środka';
 
   @override
-  String get alignRight => 'Align right';
+  String get alignRight => 'Wyrównaj do prawej';
 
   @override
   String get alignJustify => 'Wyjustuj tekst';
 
   @override
-  String get justifyWinWidth => 'Justify win width';
+  String get justifyWinWidth => 'Wyrównaj szerokość wygranej';
 
   @override
-  String get textDirection => 'Text direction';
+  String get textDirection => 'Kierunek tekstu';
 
   @override
-  String get headerStyle => 'Header style';
+  String get headerStyle => 'Styl nagłówka';
 
   @override
   String get normal => 'Normalny';
@@ -165,46 +165,46 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
   String get heading6 => 'Nagłówek 6';
 
   @override
-  String get numberedList => 'Numbered list';
+  String get numberedList => 'Lista numerowana';
 
   @override
-  String get bulletList => 'Bullet list';
+  String get bulletList => 'Lista punktowana';
 
   @override
-  String get checkedList => 'Checked list';
+  String get checkedList => 'Lista kontrolna';
 
   @override
-  String get codeBlock => 'Code block';
+  String get codeBlock => 'Blok kodu';
 
   @override
-  String get quote => 'Quote';
+  String get quote => 'Cytat';
 
   @override
-  String get increaseIndent => 'Increase indent';
+  String get increaseIndent => 'Zwiększ wcięcie';
 
   @override
-  String get decreaseIndent => 'Decrease indent';
+  String get decreaseIndent => 'Zmniejsz wcięcie';
 
   @override
-  String get insertURL => 'Insert URL';
+  String get insertURL => 'Wstaw adres URL';
 
   @override
-  String get visitLink => 'Visit link';
+  String get visitLink => 'Odwiedź link';
 
   @override
-  String get enterLink => 'Enter link';
+  String get enterLink => 'Wprowadź link';
 
   @override
-  String get enterMedia => 'Enter media';
+  String get enterMedia => 'Wejdź do mediów';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Redagować';
 
   @override
-  String get apply => 'Apply';
+  String get apply => 'Stosować';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Klątwa';
 
   @override
   String get material => 'Materiał';
@@ -216,19 +216,19 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
   String get lineheight => 'Wysokość linii';
 
   @override
-  String get findText => 'Find text';
+  String get findText => 'Znajdź tekst';
 
   @override
-  String get moveToPreviousOccurrence => 'Move to previous occurrence';
+  String get moveToPreviousOccurrence => 'Przejdź do poprzedniego wystąpienia';
 
   @override
-  String get moveToNextOccurrence => 'Move to next occurrence';
+  String get moveToNextOccurrence => 'Przejdź do następnego wystąpienia';
 
   @override
-  String get savedUsingTheNetwork => 'Saved using the network';
+  String get savedUsingTheNetwork => 'Zapisano za pomocą sieci';
 
   @override
-  String get savedUsingLocalStorage => 'Saved using the local storage';
+  String get savedUsingLocalStorage => 'Zapisano przy użyciu pamięci lokalnej';
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
@@ -236,7 +236,7 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
   }
 
   @override
-  String get errorWhileSavingImage => 'Error while saving image';
+  String get errorWhileSavingImage => 'Błąd podczas zapisywania obrazu';
 
   @override
   String get pleaseEnterTextForYourLink => 'e.g., \'Learn more\'';
@@ -245,7 +245,8 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
   String get pleaseEnterTheLinkURL => 'e.g., \'https://example.com\'';
 
   @override
-  String get pleaseEnterAValidImageURL => 'Please enter a valid image URL';
+  String get pleaseEnterAValidImageURL =>
+      'Proszę wprowadzić prawidłowy adres URL obrazu';
 
   @override
   String get pleaseEnterAValidVideoURL =>
@@ -304,31 +305,31 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
   String get insertTable => 'Wstaw tabelę';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Wstaw wideo';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Wystąpił nieoczekiwany błąd podczas zapisywania obrazu. Spróbuj ponownie.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Obraz zapisany w Twojej galerii.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Obraz został pomyślnie zapisany.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Obraz został pomyślnie pobrany.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Otwórz galerię';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Otwórz lokalizację pliku';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Otwórz plik';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Nie udało się zapisać obrazu z powodu braku uprawnień';
 }

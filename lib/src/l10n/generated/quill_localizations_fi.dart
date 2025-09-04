@@ -12,7 +12,7 @@ class FlutterQuillLocalizationsFi extends FlutterQuillLocalizations {
   String get pasteLink => 'Liitä linkki';
 
   @override
-  String get ok => 'Ok';
+  String get ok => 'Okei';
 
   @override
   String get selectColor => 'Valitse väri';
@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsFi extends FlutterQuillLocalizations {
   String get apply => 'Käytä';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Heks';
 
   @override
   String get material => 'Materiaali';

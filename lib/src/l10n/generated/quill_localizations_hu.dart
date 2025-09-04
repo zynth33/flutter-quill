@@ -12,7 +12,7 @@ class FlutterQuillLocalizationsHu extends FlutterQuillLocalizations {
   String get pasteLink => 'Link beillesztése';
 
   @override
-  String get ok => 'Ok';
+  String get ok => 'Rendben';
 
   @override
   String get selectColor => 'Szín kiválasztása';
@@ -310,31 +310,31 @@ class FlutterQuillLocalizationsHu extends FlutterQuillLocalizations {
   String get insertTable => 'Táblázat beszúrása';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Videó beszúrása';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Váratlan hiba történt a kép mentése közben. Próbáld újra.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'A kép elmentve a galériádba.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'A kép mentése sikeresen megtörtént.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'A kép sikeresen letöltve.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Galéria megnyitása';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Fájl megnyitása helyének megadása';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Fájl megnyitása';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'A kép mentése sikertelen engedély miatt nem sikerült.';
 }

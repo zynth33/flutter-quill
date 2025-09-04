@@ -5,52 +5,194 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'quill_localizations_ab.dart';
+import 'quill_localizations_ace.dart';
+import 'quill_localizations_ach.dart';
+import 'quill_localizations_af.dart';
+import 'quill_localizations_ak.dart';
+import 'quill_localizations_alz.dart';
 import 'quill_localizations_am.dart';
 import 'quill_localizations_ar.dart';
+import 'quill_localizations_as.dart';
+import 'quill_localizations_awa.dart';
+import 'quill_localizations_ay.dart';
+import 'quill_localizations_az.dart';
+import 'quill_localizations_ba.dart';
+import 'quill_localizations_ban.dart';
+import 'quill_localizations_bbc.dart';
+import 'quill_localizations_be.dart';
+import 'quill_localizations_bem.dart';
+import 'quill_localizations_bew.dart';
 import 'quill_localizations_bg.dart';
+import 'quill_localizations_bho.dart';
+import 'quill_localizations_bik.dart';
+import 'quill_localizations_bm.dart';
 import 'quill_localizations_bn.dart';
+import 'quill_localizations_br.dart';
 import 'quill_localizations_bs.dart';
+import 'quill_localizations_bts.dart';
+import 'quill_localizations_btx.dart';
+import 'quill_localizations_bua.dart';
 import 'quill_localizations_ca.dart';
+import 'quill_localizations_ceb.dart';
+import 'quill_localizations_cgg.dart';
+import 'quill_localizations_chm.dart';
+import 'quill_localizations_ckb.dart';
+import 'quill_localizations_cnh.dart';
+import 'quill_localizations_co.dart';
+import 'quill_localizations_crh.dart';
+import 'quill_localizations_crs.dart';
 import 'quill_localizations_cs.dart';
+import 'quill_localizations_cv.dart';
+import 'quill_localizations_cy.dart';
 import 'quill_localizations_da.dart';
 import 'quill_localizations_de.dart';
+import 'quill_localizations_din.dart';
+import 'quill_localizations_doi.dart';
+import 'quill_localizations_dov.dart';
+import 'quill_localizations_dv.dart';
+import 'quill_localizations_dz.dart';
+import 'quill_localizations_ee.dart';
 import 'quill_localizations_el.dart';
 import 'quill_localizations_en.dart';
+import 'quill_localizations_eo.dart';
 import 'quill_localizations_es.dart';
+import 'quill_localizations_et.dart';
+import 'quill_localizations_eu.dart';
 import 'quill_localizations_fa.dart';
+import 'quill_localizations_ff.dart';
 import 'quill_localizations_fi.dart';
+import 'quill_localizations_fj.dart';
 import 'quill_localizations_fr.dart';
+import 'quill_localizations_fy.dart';
+import 'quill_localizations_ga.dart';
+import 'quill_localizations_gaa.dart';
+import 'quill_localizations_gd.dart';
+import 'quill_localizations_gl.dart';
+import 'quill_localizations_gn.dart';
+import 'quill_localizations_gom.dart';
 import 'quill_localizations_gu.dart';
+import 'quill_localizations_ha.dart';
+import 'quill_localizations_haw.dart';
 import 'quill_localizations_he.dart';
 import 'quill_localizations_hi.dart';
+import 'quill_localizations_hil.dart';
+import 'quill_localizations_hmn.dart';
 import 'quill_localizations_hr.dart';
+import 'quill_localizations_hrx.dart';
+import 'quill_localizations_ht.dart';
 import 'quill_localizations_hu.dart';
+import 'quill_localizations_hy.dart';
 import 'quill_localizations_id.dart';
+import 'quill_localizations_ig.dart';
+import 'quill_localizations_ilo.dart';
+import 'quill_localizations_is.dart';
 import 'quill_localizations_it.dart';
 import 'quill_localizations_ja.dart';
+import 'quill_localizations_jv.dart';
+import 'quill_localizations_ka.dart';
+import 'quill_localizations_kk.dart';
 import 'quill_localizations_km.dart';
+import 'quill_localizations_kn.dart';
 import 'quill_localizations_ko.dart';
+import 'quill_localizations_kri.dart';
+import 'quill_localizations_ktu.dart';
 import 'quill_localizations_ku.dart';
+import 'quill_localizations_ky.dart';
+import 'quill_localizations_la.dart';
+import 'quill_localizations_lb.dart';
+import 'quill_localizations_lg.dart';
+import 'quill_localizations_li.dart';
+import 'quill_localizations_lij.dart';
+import 'quill_localizations_lmo.dart';
+import 'quill_localizations_ln.dart';
+import 'quill_localizations_lo.dart';
+import 'quill_localizations_lt.dart';
+import 'quill_localizations_ltg.dart';
+import 'quill_localizations_luo.dart';
+import 'quill_localizations_lus.dart';
+import 'quill_localizations_lv.dart';
+import 'quill_localizations_mai.dart';
+import 'quill_localizations_mak.dart';
+import 'quill_localizations_mg.dart';
+import 'quill_localizations_mi.dart';
+import 'quill_localizations_min.dart';
 import 'quill_localizations_mk.dart';
+import 'quill_localizations_ml.dart';
+import 'quill_localizations_mn.dart';
+import 'quill_localizations_mni.dart';
+import 'quill_localizations_mr.dart';
 import 'quill_localizations_ms.dart';
+import 'quill_localizations_mt.dart';
+import 'quill_localizations_my.dart';
+import 'quill_localizations_nb.dart';
 import 'quill_localizations_ne.dart';
+import 'quill_localizations_new.dart';
 import 'quill_localizations_nl.dart';
 import 'quill_localizations_no.dart';
+import 'quill_localizations_nr.dart';
+import 'quill_localizations_nso.dart';
+import 'quill_localizations_nus.dart';
+import 'quill_localizations_ny.dart';
+import 'quill_localizations_oc.dart';
+import 'quill_localizations_om.dart';
+import 'quill_localizations_or.dart';
+import 'quill_localizations_pa.dart';
+import 'quill_localizations_pag.dart';
+import 'quill_localizations_pam.dart';
+import 'quill_localizations_pap.dart';
 import 'quill_localizations_pl.dart';
+import 'quill_localizations_ps.dart';
 import 'quill_localizations_pt.dart';
+import 'quill_localizations_qu.dart';
+import 'quill_localizations_rn.dart';
 import 'quill_localizations_ro.dart';
+import 'quill_localizations_rom.dart';
 import 'quill_localizations_ru.dart';
+import 'quill_localizations_rw.dart';
+import 'quill_localizations_sa.dart';
+import 'quill_localizations_scn.dart';
+import 'quill_localizations_sd.dart';
+import 'quill_localizations_sg.dart';
+import 'quill_localizations_shn.dart';
+import 'quill_localizations_si.dart';
 import 'quill_localizations_sk.dart';
+import 'quill_localizations_sl.dart';
+import 'quill_localizations_sm.dart';
+import 'quill_localizations_sn.dart';
+import 'quill_localizations_so.dart';
+import 'quill_localizations_sq.dart';
 import 'quill_localizations_sr.dart';
+import 'quill_localizations_ss.dart';
+import 'quill_localizations_st.dart';
+import 'quill_localizations_su.dart';
 import 'quill_localizations_sv.dart';
 import 'quill_localizations_sw.dart';
+import 'quill_localizations_szl.dart';
+import 'quill_localizations_ta.dart';
+import 'quill_localizations_te.dart';
+import 'quill_localizations_tet.dart';
+import 'quill_localizations_tg.dart';
 import 'quill_localizations_th.dart';
+import 'quill_localizations_ti.dart';
 import 'quill_localizations_tk.dart';
+import 'quill_localizations_tl.dart';
+import 'quill_localizations_tn.dart';
 import 'quill_localizations_tr.dart';
+import 'quill_localizations_ts.dart';
+import 'quill_localizations_tt.dart';
+import 'quill_localizations_ug.dart';
 import 'quill_localizations_uk.dart';
 import 'quill_localizations_ur.dart';
+import 'quill_localizations_uz.dart';
 import 'quill_localizations_vi.dart';
+import 'quill_localizations_xh.dart';
+import 'quill_localizations_yi.dart';
+import 'quill_localizations_yo.dart';
+import 'quill_localizations_yua.dart';
+import 'quill_localizations_yue.dart';
 import 'quill_localizations_zh.dart';
+import 'quill_localizations_zu.dart';
 
 // ignore_for_file: type=lint
 
@@ -139,59 +281,204 @@ abstract class FlutterQuillLocalizations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
+    Locale('ab'),
+    Locale('ace'),
+    Locale('ach'),
+    Locale('af'),
+    Locale('ak'),
+    Locale('alz'),
     Locale('am'),
     Locale('ar'),
+    Locale('as'),
+    Locale('awa'),
+    Locale('ay'),
+    Locale('az'),
+    Locale('ba'),
+    Locale('ban'),
+    Locale('bbc'),
+    Locale('be'),
+    Locale('bem'),
+    Locale('bew'),
     Locale('bg'),
+    Locale('bho'),
+    Locale('bik'),
+    Locale('bm'),
     Locale('bn'),
+    Locale('br'),
     Locale('bs'),
+    Locale('bts'),
+    Locale('btx'),
+    Locale('bua'),
     Locale('ca'),
+    Locale('ceb'),
+    Locale('cgg'),
+    Locale('chm'),
+    Locale('ckb'),
+    Locale('cnh'),
+    Locale('co'),
+    Locale('crh'),
+    Locale('crs'),
     Locale('cs'),
+    Locale('cv'),
+    Locale('cy'),
     Locale('da'),
     Locale('de'),
+    Locale('din'),
+    Locale('doi'),
+    Locale('dov'),
+    Locale('dv'),
+    Locale('dz'),
+    Locale('ee'),
     Locale('el'),
     Locale('en'),
     Locale('en', 'US'),
+    Locale('eo'),
     Locale('es'),
+    Locale('et'),
+    Locale('eu'),
     Locale('fa'),
+    Locale('ff'),
     Locale('fi'),
+    Locale('fj'),
     Locale('fr'),
+    Locale('fy'),
+    Locale('ga'),
+    Locale('gaa'),
+    Locale('gd'),
+    Locale('gl'),
+    Locale('gn'),
+    Locale('gom'),
     Locale('gu'),
+    Locale('ha'),
+    Locale('haw'),
     Locale('he'),
     Locale('hi'),
+    Locale('hil'),
+    Locale('hmn'),
     Locale('hr'),
+    Locale('hrx'),
+    Locale('ht'),
     Locale('hu'),
+    Locale('hy'),
     Locale('id'),
+    Locale('ig'),
+    Locale('ilo'),
+    Locale('is'),
     Locale('it'),
     Locale('ja'),
+    Locale('jv'),
+    Locale('ka'),
+    Locale('kk'),
     Locale('km'),
+    Locale('kn'),
     Locale('ko'),
+    Locale('kri'),
+    Locale('ktu'),
     Locale('ku'),
     Locale('ku', 'CKB'),
+    Locale('ky'),
+    Locale('la'),
+    Locale('lb'),
+    Locale('lg'),
+    Locale('li'),
+    Locale('lij'),
+    Locale('lmo'),
+    Locale('ln'),
+    Locale('lo'),
+    Locale('lt'),
+    Locale('ltg'),
+    Locale('luo'),
+    Locale('lus'),
+    Locale('lv'),
+    Locale('mai'),
+    Locale('mak'),
+    Locale('mg'),
+    Locale('mi'),
+    Locale('min'),
     Locale('mk'),
+    Locale('ml'),
+    Locale('mn'),
+    Locale('mni'),
+    Locale.fromSubtags(languageCode: 'mni', scriptCode: 'Mtei'),
+    Locale('mr'),
     Locale('ms'),
+    Locale.fromSubtags(languageCode: 'ms', scriptCode: 'Arab'),
+    Locale('mt'),
+    Locale('my'),
+    Locale('nb'),
     Locale('ne'),
+    Locale('new'),
     Locale('nl'),
     Locale('no'),
+    Locale('nr'),
+    Locale('nso'),
+    Locale('nus'),
+    Locale('ny'),
+    Locale('oc'),
+    Locale('om'),
+    Locale('or'),
+    Locale('pa'),
+    Locale.fromSubtags(languageCode: 'pa', scriptCode: 'Arab'),
+    Locale('pag'),
+    Locale('pam'),
+    Locale('pap'),
     Locale('pl'),
+    Locale('ps'),
     Locale('pt'),
     Locale('pt', 'BR'),
+    Locale('qu'),
+    Locale('rn'),
     Locale('ro'),
     Locale('ro', 'RO'),
+    Locale('rom'),
     Locale('ru'),
+    Locale('rw'),
+    Locale('sa'),
+    Locale('scn'),
+    Locale('sd'),
+    Locale('sg'),
+    Locale('shn'),
+    Locale('si'),
     Locale('sk'),
+    Locale('sl'),
+    Locale('sm'),
+    Locale('sn'),
+    Locale('so'),
+    Locale('sq'),
     Locale('sr'),
+    Locale('ss'),
+    Locale('st'),
+    Locale('su'),
     Locale('sv'),
     Locale('sw'),
+    Locale('szl'),
+    Locale('ta'),
+    Locale('te'),
+    Locale('tet'),
+    Locale('tg'),
     Locale('th'),
+    Locale('ti'),
     Locale('tk'),
+    Locale('tl'),
+    Locale('tn'),
     Locale('tr'),
+    Locale('ts'),
+    Locale('tt'),
+    Locale('ug'),
     Locale('uk'),
     Locale('ur'),
+    Locale('uz'),
     Locale('vi'),
+    Locale('xh'),
+    Locale('yi'),
+    Locale('yo'),
+    Locale('yua'),
+    Locale('yue'),
     Locale('zh'),
     Locale('zh', 'CN'),
     Locale('zh', 'HK'),
-    Locale('zh', 'TW')
+    Locale('zh', 'TW'),
+    Locale('zu')
   ];
 
   /// No description provided for @pasteLink.
@@ -843,52 +1130,194 @@ class _FlutterQuillLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) => <String>[
+        'ab',
+        'ace',
+        'ach',
+        'af',
+        'ak',
+        'alz',
         'am',
         'ar',
+        'as',
+        'awa',
+        'ay',
+        'az',
+        'ba',
+        'ban',
+        'bbc',
+        'be',
+        'bem',
+        'bew',
         'bg',
+        'bho',
+        'bik',
+        'bm',
         'bn',
+        'br',
         'bs',
+        'bts',
+        'btx',
+        'bua',
         'ca',
+        'ceb',
+        'cgg',
+        'chm',
+        'ckb',
+        'cnh',
+        'co',
+        'crh',
+        'crs',
         'cs',
+        'cv',
+        'cy',
         'da',
         'de',
+        'din',
+        'doi',
+        'dov',
+        'dv',
+        'dz',
+        'ee',
         'el',
         'en',
+        'eo',
         'es',
+        'et',
+        'eu',
         'fa',
+        'ff',
         'fi',
+        'fj',
         'fr',
+        'fy',
+        'ga',
+        'gaa',
+        'gd',
+        'gl',
+        'gn',
+        'gom',
         'gu',
+        'ha',
+        'haw',
         'he',
         'hi',
+        'hil',
+        'hmn',
         'hr',
+        'hrx',
+        'ht',
         'hu',
+        'hy',
         'id',
+        'ig',
+        'ilo',
+        'is',
         'it',
         'ja',
+        'jv',
+        'ka',
+        'kk',
         'km',
+        'kn',
         'ko',
+        'kri',
+        'ktu',
         'ku',
+        'ky',
+        'la',
+        'lb',
+        'lg',
+        'li',
+        'lij',
+        'lmo',
+        'ln',
+        'lo',
+        'lt',
+        'ltg',
+        'luo',
+        'lus',
+        'lv',
+        'mai',
+        'mak',
+        'mg',
+        'mi',
+        'min',
         'mk',
+        'ml',
+        'mn',
+        'mni',
+        'mr',
         'ms',
+        'mt',
+        'my',
+        'nb',
         'ne',
+        'new',
         'nl',
         'no',
+        'nr',
+        'nso',
+        'nus',
+        'ny',
+        'oc',
+        'om',
+        'or',
+        'pa',
+        'pag',
+        'pam',
+        'pap',
         'pl',
+        'ps',
         'pt',
+        'qu',
+        'rn',
         'ro',
+        'rom',
         'ru',
+        'rw',
+        'sa',
+        'scn',
+        'sd',
+        'sg',
+        'shn',
+        'si',
         'sk',
+        'sl',
+        'sm',
+        'sn',
+        'so',
+        'sq',
         'sr',
+        'ss',
+        'st',
+        'su',
         'sv',
         'sw',
+        'szl',
+        'ta',
+        'te',
+        'tet',
+        'tg',
         'th',
+        'ti',
         'tk',
+        'tl',
+        'tn',
         'tr',
+        'ts',
+        'tt',
+        'ug',
         'uk',
         'ur',
+        'uz',
         'vi',
-        'zh'
+        'xh',
+        'yi',
+        'yo',
+        'yua',
+        'yue',
+        'zh',
+        'zu'
       ].contains(locale.languageCode);
 
   @override
@@ -896,6 +1325,34 @@ class _FlutterQuillLocalizationsDelegate
 }
 
 FlutterQuillLocalizations lookupFlutterQuillLocalizations(Locale locale) {
+  // Lookup logic when language+script codes are specified.
+  switch (locale.languageCode) {
+    case 'mni':
+      {
+        switch (locale.scriptCode) {
+          case 'Mtei':
+            return FlutterQuillLocalizationsMniMtei();
+        }
+        break;
+      }
+    case 'ms':
+      {
+        switch (locale.scriptCode) {
+          case 'Arab':
+            return FlutterQuillLocalizationsMsArab();
+        }
+        break;
+      }
+    case 'pa':
+      {
+        switch (locale.scriptCode) {
+          case 'Arab':
+            return FlutterQuillLocalizationsPaArab();
+        }
+        break;
+      }
+  }
+
   // Lookup logic when language+country codes are specified.
   switch (locale.languageCode) {
     case 'en':
@@ -946,98 +1403,382 @@ FlutterQuillLocalizations lookupFlutterQuillLocalizations(Locale locale) {
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'ab':
+      return FlutterQuillLocalizationsAb();
+    case 'ace':
+      return FlutterQuillLocalizationsAce();
+    case 'ach':
+      return FlutterQuillLocalizationsAch();
+    case 'af':
+      return FlutterQuillLocalizationsAf();
+    case 'ak':
+      return FlutterQuillLocalizationsAk();
+    case 'alz':
+      return FlutterQuillLocalizationsAlz();
     case 'am':
       return FlutterQuillLocalizationsAm();
     case 'ar':
       return FlutterQuillLocalizationsAr();
+    case 'as':
+      return FlutterQuillLocalizationsAs();
+    case 'awa':
+      return FlutterQuillLocalizationsAwa();
+    case 'ay':
+      return FlutterQuillLocalizationsAy();
+    case 'az':
+      return FlutterQuillLocalizationsAz();
+    case 'ba':
+      return FlutterQuillLocalizationsBa();
+    case 'ban':
+      return FlutterQuillLocalizationsBan();
+    case 'bbc':
+      return FlutterQuillLocalizationsBbc();
+    case 'be':
+      return FlutterQuillLocalizationsBe();
+    case 'bem':
+      return FlutterQuillLocalizationsBem();
+    case 'bew':
+      return FlutterQuillLocalizationsBew();
     case 'bg':
       return FlutterQuillLocalizationsBg();
+    case 'bho':
+      return FlutterQuillLocalizationsBho();
+    case 'bik':
+      return FlutterQuillLocalizationsBik();
+    case 'bm':
+      return FlutterQuillLocalizationsBm();
     case 'bn':
       return FlutterQuillLocalizationsBn();
+    case 'br':
+      return FlutterQuillLocalizationsBr();
     case 'bs':
       return FlutterQuillLocalizationsBs();
+    case 'bts':
+      return FlutterQuillLocalizationsBts();
+    case 'btx':
+      return FlutterQuillLocalizationsBtx();
+    case 'bua':
+      return FlutterQuillLocalizationsBua();
     case 'ca':
       return FlutterQuillLocalizationsCa();
+    case 'ceb':
+      return FlutterQuillLocalizationsCeb();
+    case 'cgg':
+      return FlutterQuillLocalizationsCgg();
+    case 'chm':
+      return FlutterQuillLocalizationsChm();
+    case 'ckb':
+      return FlutterQuillLocalizationsCkb();
+    case 'cnh':
+      return FlutterQuillLocalizationsCnh();
+    case 'co':
+      return FlutterQuillLocalizationsCo();
+    case 'crh':
+      return FlutterQuillLocalizationsCrh();
+    case 'crs':
+      return FlutterQuillLocalizationsCrs();
     case 'cs':
       return FlutterQuillLocalizationsCs();
+    case 'cv':
+      return FlutterQuillLocalizationsCv();
+    case 'cy':
+      return FlutterQuillLocalizationsCy();
     case 'da':
       return FlutterQuillLocalizationsDa();
     case 'de':
       return FlutterQuillLocalizationsDe();
+    case 'din':
+      return FlutterQuillLocalizationsDin();
+    case 'doi':
+      return FlutterQuillLocalizationsDoi();
+    case 'dov':
+      return FlutterQuillLocalizationsDov();
+    case 'dv':
+      return FlutterQuillLocalizationsDv();
+    case 'dz':
+      return FlutterQuillLocalizationsDz();
+    case 'ee':
+      return FlutterQuillLocalizationsEe();
     case 'el':
       return FlutterQuillLocalizationsEl();
     case 'en':
       return FlutterQuillLocalizationsEn();
+    case 'eo':
+      return FlutterQuillLocalizationsEo();
     case 'es':
       return FlutterQuillLocalizationsEs();
+    case 'et':
+      return FlutterQuillLocalizationsEt();
+    case 'eu':
+      return FlutterQuillLocalizationsEu();
     case 'fa':
       return FlutterQuillLocalizationsFa();
+    case 'ff':
+      return FlutterQuillLocalizationsFf();
     case 'fi':
       return FlutterQuillLocalizationsFi();
+    case 'fj':
+      return FlutterQuillLocalizationsFj();
     case 'fr':
       return FlutterQuillLocalizationsFr();
+    case 'fy':
+      return FlutterQuillLocalizationsFy();
+    case 'ga':
+      return FlutterQuillLocalizationsGa();
+    case 'gaa':
+      return FlutterQuillLocalizationsGaa();
+    case 'gd':
+      return FlutterQuillLocalizationsGd();
+    case 'gl':
+      return FlutterQuillLocalizationsGl();
+    case 'gn':
+      return FlutterQuillLocalizationsGn();
+    case 'gom':
+      return FlutterQuillLocalizationsGom();
     case 'gu':
       return FlutterQuillLocalizationsGu();
+    case 'ha':
+      return FlutterQuillLocalizationsHa();
+    case 'haw':
+      return FlutterQuillLocalizationsHaw();
     case 'he':
       return FlutterQuillLocalizationsHe();
     case 'hi':
       return FlutterQuillLocalizationsHi();
+    case 'hil':
+      return FlutterQuillLocalizationsHil();
+    case 'hmn':
+      return FlutterQuillLocalizationsHmn();
     case 'hr':
       return FlutterQuillLocalizationsHr();
+    case 'hrx':
+      return FlutterQuillLocalizationsHrx();
+    case 'ht':
+      return FlutterQuillLocalizationsHt();
     case 'hu':
       return FlutterQuillLocalizationsHu();
+    case 'hy':
+      return FlutterQuillLocalizationsHy();
     case 'id':
       return FlutterQuillLocalizationsId();
+    case 'ig':
+      return FlutterQuillLocalizationsIg();
+    case 'ilo':
+      return FlutterQuillLocalizationsIlo();
+    case 'is':
+      return FlutterQuillLocalizationsIs();
     case 'it':
       return FlutterQuillLocalizationsIt();
     case 'ja':
       return FlutterQuillLocalizationsJa();
+    case 'jv':
+      return FlutterQuillLocalizationsJv();
+    case 'ka':
+      return FlutterQuillLocalizationsKa();
+    case 'kk':
+      return FlutterQuillLocalizationsKk();
     case 'km':
       return FlutterQuillLocalizationsKm();
+    case 'kn':
+      return FlutterQuillLocalizationsKn();
     case 'ko':
       return FlutterQuillLocalizationsKo();
+    case 'kri':
+      return FlutterQuillLocalizationsKri();
+    case 'ktu':
+      return FlutterQuillLocalizationsKtu();
     case 'ku':
       return FlutterQuillLocalizationsKu();
+    case 'ky':
+      return FlutterQuillLocalizationsKy();
+    case 'la':
+      return FlutterQuillLocalizationsLa();
+    case 'lb':
+      return FlutterQuillLocalizationsLb();
+    case 'lg':
+      return FlutterQuillLocalizationsLg();
+    case 'li':
+      return FlutterQuillLocalizationsLi();
+    case 'lij':
+      return FlutterQuillLocalizationsLij();
+    case 'lmo':
+      return FlutterQuillLocalizationsLmo();
+    case 'ln':
+      return FlutterQuillLocalizationsLn();
+    case 'lo':
+      return FlutterQuillLocalizationsLo();
+    case 'lt':
+      return FlutterQuillLocalizationsLt();
+    case 'ltg':
+      return FlutterQuillLocalizationsLtg();
+    case 'luo':
+      return FlutterQuillLocalizationsLuo();
+    case 'lus':
+      return FlutterQuillLocalizationsLus();
+    case 'lv':
+      return FlutterQuillLocalizationsLv();
+    case 'mai':
+      return FlutterQuillLocalizationsMai();
+    case 'mak':
+      return FlutterQuillLocalizationsMak();
+    case 'mg':
+      return FlutterQuillLocalizationsMg();
+    case 'mi':
+      return FlutterQuillLocalizationsMi();
+    case 'min':
+      return FlutterQuillLocalizationsMin();
     case 'mk':
       return FlutterQuillLocalizationsMk();
+    case 'ml':
+      return FlutterQuillLocalizationsMl();
+    case 'mn':
+      return FlutterQuillLocalizationsMn();
+    case 'mni':
+      return FlutterQuillLocalizationsMni();
+    case 'mr':
+      return FlutterQuillLocalizationsMr();
     case 'ms':
       return FlutterQuillLocalizationsMs();
+    case 'mt':
+      return FlutterQuillLocalizationsMt();
+    case 'my':
+      return FlutterQuillLocalizationsMy();
+    case 'nb':
+      return FlutterQuillLocalizationsNb();
     case 'ne':
       return FlutterQuillLocalizationsNe();
+    case 'new':
+      return FlutterQuillLocalizationsNew();
     case 'nl':
       return FlutterQuillLocalizationsNl();
     case 'no':
       return FlutterQuillLocalizationsNo();
+    case 'nr':
+      return FlutterQuillLocalizationsNr();
+    case 'nso':
+      return FlutterQuillLocalizationsNso();
+    case 'nus':
+      return FlutterQuillLocalizationsNus();
+    case 'ny':
+      return FlutterQuillLocalizationsNy();
+    case 'oc':
+      return FlutterQuillLocalizationsOc();
+    case 'om':
+      return FlutterQuillLocalizationsOm();
+    case 'or':
+      return FlutterQuillLocalizationsOr();
+    case 'pa':
+      return FlutterQuillLocalizationsPa();
+    case 'pag':
+      return FlutterQuillLocalizationsPag();
+    case 'pam':
+      return FlutterQuillLocalizationsPam();
+    case 'pap':
+      return FlutterQuillLocalizationsPap();
     case 'pl':
       return FlutterQuillLocalizationsPl();
+    case 'ps':
+      return FlutterQuillLocalizationsPs();
     case 'pt':
       return FlutterQuillLocalizationsPt();
+    case 'qu':
+      return FlutterQuillLocalizationsQu();
+    case 'rn':
+      return FlutterQuillLocalizationsRn();
     case 'ro':
       return FlutterQuillLocalizationsRo();
+    case 'rom':
+      return FlutterQuillLocalizationsRom();
     case 'ru':
       return FlutterQuillLocalizationsRu();
+    case 'rw':
+      return FlutterQuillLocalizationsRw();
+    case 'sa':
+      return FlutterQuillLocalizationsSa();
+    case 'scn':
+      return FlutterQuillLocalizationsScn();
+    case 'sd':
+      return FlutterQuillLocalizationsSd();
+    case 'sg':
+      return FlutterQuillLocalizationsSg();
+    case 'shn':
+      return FlutterQuillLocalizationsShn();
+    case 'si':
+      return FlutterQuillLocalizationsSi();
     case 'sk':
       return FlutterQuillLocalizationsSk();
+    case 'sl':
+      return FlutterQuillLocalizationsSl();
+    case 'sm':
+      return FlutterQuillLocalizationsSm();
+    case 'sn':
+      return FlutterQuillLocalizationsSn();
+    case 'so':
+      return FlutterQuillLocalizationsSo();
+    case 'sq':
+      return FlutterQuillLocalizationsSq();
     case 'sr':
       return FlutterQuillLocalizationsSr();
+    case 'ss':
+      return FlutterQuillLocalizationsSs();
+    case 'st':
+      return FlutterQuillLocalizationsSt();
+    case 'su':
+      return FlutterQuillLocalizationsSu();
     case 'sv':
       return FlutterQuillLocalizationsSv();
     case 'sw':
       return FlutterQuillLocalizationsSw();
+    case 'szl':
+      return FlutterQuillLocalizationsSzl();
+    case 'ta':
+      return FlutterQuillLocalizationsTa();
+    case 'te':
+      return FlutterQuillLocalizationsTe();
+    case 'tet':
+      return FlutterQuillLocalizationsTet();
+    case 'tg':
+      return FlutterQuillLocalizationsTg();
     case 'th':
       return FlutterQuillLocalizationsTh();
+    case 'ti':
+      return FlutterQuillLocalizationsTi();
     case 'tk':
       return FlutterQuillLocalizationsTk();
+    case 'tl':
+      return FlutterQuillLocalizationsTl();
+    case 'tn':
+      return FlutterQuillLocalizationsTn();
     case 'tr':
       return FlutterQuillLocalizationsTr();
+    case 'ts':
+      return FlutterQuillLocalizationsTs();
+    case 'tt':
+      return FlutterQuillLocalizationsTt();
+    case 'ug':
+      return FlutterQuillLocalizationsUg();
     case 'uk':
       return FlutterQuillLocalizationsUk();
     case 'ur':
       return FlutterQuillLocalizationsUr();
+    case 'uz':
+      return FlutterQuillLocalizationsUz();
     case 'vi':
       return FlutterQuillLocalizationsVi();
+    case 'xh':
+      return FlutterQuillLocalizationsXh();
+    case 'yi':
+      return FlutterQuillLocalizationsYi();
+    case 'yo':
+      return FlutterQuillLocalizationsYo();
+    case 'yua':
+      return FlutterQuillLocalizationsYua();
+    case 'yue':
+      return FlutterQuillLocalizationsYue();
     case 'zh':
       return FlutterQuillLocalizationsZh();
+    case 'zu':
+      return FlutterQuillLocalizationsZu();
   }
 
   throw FlutterError(

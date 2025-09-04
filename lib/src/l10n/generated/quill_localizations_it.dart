@@ -12,7 +12,7 @@ class FlutterQuillLocalizationsIt extends FlutterQuillLocalizations {
   String get pasteLink => 'Incolla un collegamento';
 
   @override
-  String get ok => 'Ok';
+  String get ok => 'OK';
 
   @override
   String get selectColor => 'Seleziona Colore';
@@ -75,7 +75,7 @@ class FlutterQuillLocalizationsIt extends FlutterQuillLocalizations {
   String get search => 'Ricerca';
 
   @override
-  String get camera => 'Camera';
+  String get camera => 'Telecamera';
 
   @override
   String get video => 'Video';
@@ -309,31 +309,31 @@ class FlutterQuillLocalizationsIt extends FlutterQuillLocalizations {
   String get insertTable => 'Inserisci tabella';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Inserisci video';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Si è verificato un errore imprevisto durante il salvataggio dell\'immagine. Riprova.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Immagine salvata nella tua galleria.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Immagine salvata con successo.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Immagine scaricata correttamente.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Apri Galleria';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Apri posizione file';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Apri file';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Impossibile salvare l\'immagine a causa della mancanza di autorizzazione';
 }

@@ -12,7 +12,7 @@ class FlutterQuillLocalizationsRo extends FlutterQuillLocalizations {
   String get pasteLink => 'Lipește un link';
 
   @override
-  String get ok => 'Ok';
+  String get ok => 'Bine';
 
   @override
   String get selectColor => 'Selectează culoarea';
@@ -21,7 +21,7 @@ class FlutterQuillLocalizationsRo extends FlutterQuillLocalizations {
   String get gallery => 'Galerie';
 
   @override
-  String get link => 'Link';
+  String get link => 'Legătură';
 
   @override
   String get open => 'Deschide';
@@ -308,33 +308,33 @@ class FlutterQuillLocalizationsRo extends FlutterQuillLocalizations {
   String get insertTable => 'Inserare tabel';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Inserează videoclip';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'A apărut o eroare neașteptată la salvarea imaginii. Vă rugăm să încercați din nou.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Imagine salvată în galeria ta.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Imaginea a fost salvată cu succes.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Imaginea a fost descărcată cu succes.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Galerie deschisă';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Deschideți locația fișierului';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Deschide fișier';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Nu s-a putut salva imaginea din cauza lipsei permisiunii.';
 }
 
 /// The translations for Romanian Moldavian Moldovan, as used in Romania (`ro_RO`).

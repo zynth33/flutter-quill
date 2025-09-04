@@ -204,10 +204,10 @@ class FlutterQuillLocalizationsBg extends FlutterQuillLocalizations {
   String get apply => 'Приложи';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Шестнадесетичен';
 
   @override
-  String get material => 'Material';
+  String get material => 'Материал';
 
   @override
   String get color => 'Цвят';
@@ -228,7 +228,8 @@ class FlutterQuillLocalizationsBg extends FlutterQuillLocalizations {
   String get savedUsingTheNetwork => 'Запазено с помощта на мрежата';
 
   @override
-  String get savedUsingLocalStorage => 'Saved using the local storage';
+  String get savedUsingLocalStorage =>
+      'Запазено с помощта на локалното хранилище';
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
@@ -236,7 +237,7 @@ class FlutterQuillLocalizationsBg extends FlutterQuillLocalizations {
   }
 
   @override
-  String get errorWhileSavingImage => 'Error while saving image';
+  String get errorWhileSavingImage => 'Грешка при запазване на изображението';
 
   @override
   String get pleaseEnterTextForYourLink => 'Например, \'Научете повече\'';
@@ -305,31 +306,32 @@ class FlutterQuillLocalizationsBg extends FlutterQuillLocalizations {
   String get insertTable => 'Вмъкни таблица';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Вмъкване на видео';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Възникна неочаквана грешка при запазването на изображението. Моля, опитайте отново.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'Изображението е запазено във вашата галерия.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Изображението е запазено успешно.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Изображението е изтеглено успешно.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Отвори галерия';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Отваряне на местоположението на файла';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Отваряне на файл';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Изображението не можа да се запази поради липсващо разрешение';
 }

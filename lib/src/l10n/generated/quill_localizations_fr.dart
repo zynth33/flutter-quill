@@ -12,7 +12,7 @@ class FlutterQuillLocalizationsFr extends FlutterQuillLocalizations {
   String get pasteLink => 'Coller un lien';
 
   @override
-  String get ok => 'Ok';
+  String get ok => 'D\'accord';
 
   @override
   String get selectColor => 'Choisir une couleur';
@@ -144,7 +144,7 @@ class FlutterQuillLocalizationsFr extends FlutterQuillLocalizations {
   String get headerStyle => 'Style d\'en-tête';
 
   @override
-  String get normal => 'Normal';
+  String get normal => 'Normale';
 
   @override
   String get heading1 => 'Titre 1';
@@ -311,31 +311,32 @@ class FlutterQuillLocalizationsFr extends FlutterQuillLocalizations {
   String get insertTable => 'Insérer un tableau';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Insérer une vidéo';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Une erreur inattendue s\'est produite lors de l\'enregistrement de l\'image. Veuillez réessayer.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'Image enregistrée dans votre galerie.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Image enregistrée avec succès.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Image téléchargée avec succès.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Ouvrir la galerie';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Ouvrir l\'emplacement du fichier';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Ouvrir le fichier';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Impossible d\'enregistrer l\'image en raison d\'une autorisation manquante';
 }

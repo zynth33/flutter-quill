@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsRu extends FlutterQuillLocalizations {
   String get apply => 'Применить';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Шестигранник';
 
   @override
   String get material => 'Материал';
@@ -308,31 +308,32 @@ class FlutterQuillLocalizationsRu extends FlutterQuillLocalizations {
   String get insertTable => 'Вставить таблицу';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Вставить видео';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'При сохранении изображения произошла непредвиденная ошибка. Попробуйте ещё раз.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'Изображение сохранено в вашей галерее.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Изображение успешно сохранено.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Изображение успешно загружено.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Открытая галерея';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Открыть местоположение файла';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Открыть файл';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Не удалось сохранить изображение из-за отсутствия разрешения.';
 }

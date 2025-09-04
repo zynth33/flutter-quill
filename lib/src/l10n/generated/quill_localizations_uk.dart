@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsUk extends FlutterQuillLocalizations {
   String get apply => 'Застосувати';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Шістнадцятковий';
 
   @override
   String get material => 'Матеріал';
@@ -309,31 +309,32 @@ class FlutterQuillLocalizationsUk extends FlutterQuillLocalizations {
   String get insertTable => 'Вставити таблицю';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Вставити відео';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Під час збереження зображення сталася неочікувана помилка. Спробуйте ще раз.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'Зображення збережено у вашій галереї.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Зображення успішно збережено.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Зображення успішно завантажено.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Відкрити галерею';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Відкрити розташування файлу';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Відкрити файл';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Не вдалося зберегти зображення через відсутність дозволу';
 }

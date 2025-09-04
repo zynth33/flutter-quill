@@ -54,37 +54,37 @@ class FlutterQuillLocalizationsHi extends FlutterQuillLocalizations {
   String get height => 'ऊंचाई';
 
   @override
-  String get size => 'Size';
+  String get size => 'आकार';
 
   @override
-  String get small => 'Small';
+  String get small => 'छोटा';
 
   @override
-  String get large => 'Large';
+  String get large => 'बड़ा';
 
   @override
-  String get huge => 'Huge';
+  String get huge => 'विशाल';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'स्पष्ट';
 
   @override
-  String get font => 'Font';
+  String get font => 'फ़ॉन्ट';
 
   @override
-  String get search => 'Search';
+  String get search => 'खोज';
 
   @override
-  String get camera => 'Camera';
+  String get camera => 'कैमरा';
 
   @override
-  String get video => 'Video';
+  String get video => 'वीडियो';
 
   @override
-  String get undo => 'Undo';
+  String get undo => 'पूर्ववत';
 
   @override
-  String get redo => 'Redo';
+  String get redo => 'फिर से करना';
 
   @override
   String get fontFamily => 'Sूची का नाम';
@@ -308,31 +308,31 @@ class FlutterQuillLocalizationsHi extends FlutterQuillLocalizations {
   String get insertTable => 'तालिका सम्मिलित करें';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'वीडियो डालें';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'छवि सहेजते समय एक अनपेक्षित त्रुटि हुई। कृपया पुनः प्रयास करें।';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'छवि आपकी गैलरी में सहेजी गई.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'छवि सफलतापूर्वक सहेजी गई.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'छवि सफलतापूर्वक डाउनलोड हो गई.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'गैलरी खोलें';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'फ़ाइल के स्थान को खोलें';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'खुली फाइल';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'अनुमति न मिलने के कारण चित्र सहेजा नहीं जा सका';
 }

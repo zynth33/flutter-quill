@@ -307,31 +307,32 @@ class FlutterQuillLocalizationsSw extends FlutterQuillLocalizations {
   String get insertTable => 'Ingiza jedwali';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Weka video';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Hitilafu isiyotarajiwa imetokea wakati wa kuhifadhi picha. Tafadhali jaribu tena.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'Picha imehifadhiwa kwenye ghala yako.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Picha imehifadhiwa.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Picha imepakuliwa.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Fungua Matunzio';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Fungua Mahali pa Faili';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Fungua Faili';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Haikuweza kuhifadhi picha kwa sababu ya kukosa ruhusa';
 }

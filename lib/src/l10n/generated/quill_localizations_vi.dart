@@ -45,7 +45,7 @@ class FlutterQuillLocalizationsVi extends FlutterQuillLocalizations {
   String get text => 'Chữ';
 
   @override
-  String get resize => 'Resize';
+  String get resize => 'Thay đổi kích thước';
 
   @override
   String get width => 'Rộng';
@@ -78,7 +78,7 @@ class FlutterQuillLocalizationsVi extends FlutterQuillLocalizations {
   String get camera => 'Máy ảnh';
 
   @override
-  String get video => 'Video';
+  String get video => 'Băng hình';
 
   @override
   String get undo => 'Hoàn tác';
@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsVi extends FlutterQuillLocalizations {
   String get apply => 'Áp dụng';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Lục giác';
 
   @override
   String get material => 'Chất liệu';
@@ -305,31 +305,32 @@ class FlutterQuillLocalizationsVi extends FlutterQuillLocalizations {
   String get insertTable => 'Chèn bảng';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Chèn video';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Đã xảy ra lỗi không mong muốn khi lưu hình ảnh. Vui lòng thử lại.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'Hình ảnh đã được lưu vào thư viện ảnh của bạn.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Hình ảnh đã được lưu thành công.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Hình ảnh đã được tải xuống thành công.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Mở Thư viện ảnh';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Mở vị trí tệp';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Mở tập tin';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Không thể lưu hình ảnh do thiếu quyền';
 }

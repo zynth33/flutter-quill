@@ -305,31 +305,32 @@ class FlutterQuillLocalizationsTh extends FlutterQuillLocalizations {
   String get insertTable => 'แทรกตาราง';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'แทรกวิดีโอ';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'เกิดข้อผิดพลาดที่ไม่คาดคิดขณะบันทึกรูปภาพ โปรดลองอีกครั้ง';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'รูปภาพถูกบันทึกไว้ในแกลเลอรี่ของคุณแล้ว';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'บันทึกภาพสำเร็จแล้ว';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'ดาวน์โหลดภาพสำเร็จแล้ว';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'เปิดแกลเลอรี่';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'เปิดตำแหน่งไฟล์';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'เปิดไฟล์';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'ไม่สามารถบันทึกรูปภาพได้เนื่องจากขาดการอนุญาต';
 }

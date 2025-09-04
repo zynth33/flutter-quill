@@ -204,13 +204,13 @@ class FlutterQuillLocalizationsJa extends FlutterQuillLocalizations {
   String get apply => '応用';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'ヘックス';
 
   @override
-  String get material => 'Material';
+  String get material => '材料';
 
   @override
-  String get color => 'Color';
+  String get color => '色';
 
   @override
   String get lineheight => '行の高さ';
@@ -302,31 +302,30 @@ class FlutterQuillLocalizationsJa extends FlutterQuillLocalizations {
   String get insertTable => 'テーブルを挿入';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'ビデオを挿入';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      '画像の保存中に予期しないエラーが発生しました。もう一度お試しください。';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => '画像をギャラリーに保存しました。';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => '画像が正常に保存されました。';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => '画像が正常にダウンロードされました。';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'ギャラリーを開く';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'ファイルの場所を開く';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'ファイルを開く';
 
   @override
-  String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+  String get saveImagePermissionDenied => '権限がないため画像を保存できませんでした';
 }

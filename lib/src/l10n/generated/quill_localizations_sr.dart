@@ -69,7 +69,7 @@ class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
   String get clear => 'Obriši';
 
   @override
-  String get font => 'Font';
+  String get font => 'Фонт';
 
   @override
   String get search => 'Pretraga';
@@ -78,7 +78,7 @@ class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
   String get camera => 'Kamera';
 
   @override
-  String get video => 'Video';
+  String get video => 'Видео';
 
   @override
   String get undo => 'Poništi';
@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
   String get apply => 'Primeni';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Хексадецимални';
 
   @override
   String get material => 'Materijal';
@@ -307,31 +307,31 @@ class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
   String get insertTable => 'Ubaci tabelu';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Уметни видео';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Дошло је до неочекиване грешке приликом чувања слике. Молимо покушајте поново.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Слика је сачувана у вашој галерији.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Слика је успешно сачувана.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Слика је успешно преузета.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Отвори галерију';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Отвори локацију датотеке';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Отвори датотеку';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Није могуће сачувати слику због недостајуће дозволе';
 }

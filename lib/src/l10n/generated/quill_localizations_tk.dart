@@ -135,7 +135,7 @@ class FlutterQuillLocalizationsTk extends FlutterQuillLocalizations {
   String get alignJustify => 'Düzgünlyä';
 
   @override
-  String get justifyWinWidth => 'Justify win width';
+  String get justifyWinWidth => 'Wineňiş giňligini esaslandyryň';
 
   @override
   String get textDirection => 'Tekst ugry';
@@ -228,7 +228,7 @@ class FlutterQuillLocalizationsTk extends FlutterQuillLocalizations {
   String get savedUsingTheNetwork => 'Ulgama ulanyp saklanan';
 
   @override
-  String get savedUsingLocalStorage => 'Saved using the local storage';
+  String get savedUsingLocalStorage => 'Storageerli ammar ulanyp tygşytlandy';
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
@@ -236,7 +236,7 @@ class FlutterQuillLocalizationsTk extends FlutterQuillLocalizations {
   }
 
   @override
-  String get errorWhileSavingImage => 'Error while saving image';
+  String get errorWhileSavingImage => 'Suraty ýatda saklamakda ýalňyşlyk';
 
   @override
   String get pleaseEnterTextForYourLink => 'Güýz öwrenmek)';
@@ -245,7 +245,7 @@ class FlutterQuillLocalizationsTk extends FlutterQuillLocalizations {
   String get pleaseEnterTheLinkURL => 'https://example.com';
 
   @override
-  String get pleaseEnterAValidImageURL => 'Please enter a valid image URL';
+  String get pleaseEnterAValidImageURL => 'Dogry surat URL-ni giriziň';
 
   @override
   String get pleaseEnterAValidVideoURL => 'Lütfen güýjük wideo URL giriziň';
@@ -303,31 +303,31 @@ class FlutterQuillLocalizationsTk extends FlutterQuillLocalizations {
   String get insertTable => 'Jadwal goş';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Wideo goýuň';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Suraty ýatda saklamakda garaşylmadyk ýalňyşlyk ýüze çykdy. Gaýtadan synanyşmagyňyzy haýyş edýäris.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Surat galereýaňyzda saklandy';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Surat üstünlikli saklandy.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Surat üstünlikli göçürildi.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Galereýa açyň';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Faýlyň ýerleşýän ýerini açyň';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Faýly açyň';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Rugsat ýoklugy sebäpli suraty saklap bolmady';
 }

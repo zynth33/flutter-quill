@@ -81,10 +81,10 @@ class FlutterQuillLocalizationsFa extends FlutterQuillLocalizations {
   String get video => 'ویدیو';
 
   @override
-  String get undo => 'Undo';
+  String get undo => 'لغو';
 
   @override
-  String get redo => 'Redo';
+  String get redo => 'دوباره انجام دادن';
 
   @override
   String get fontFamily => 'Sخانواده فونت';
@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsFa extends FlutterQuillLocalizations {
   String get apply => 'اعمال';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'هگز';
 
   @override
   String get material => 'مواد';
@@ -306,31 +306,30 @@ class FlutterQuillLocalizationsFa extends FlutterQuillLocalizations {
   String get insertTable => 'درج جدول';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'درج ویدیو';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'هنگام ذخیره تصویر خطای غیرمنتظره‌ای رخ داد. لطفاً دوباره امتحان کنید.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'تصویر در گالری شما ذخیره شد.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'تصویر با موفقیت ذخیره شد.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'تصویر با موفقیت دانلود شد.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'گالری باز';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'باز کردن محل فایل';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'باز کردن فایل';
 
   @override
-  String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+  String get saveImagePermissionDenied => 'به دلیل عدم دسترسی، تصویر ذخیره نشد';
 }

@@ -12,7 +12,7 @@ class FlutterQuillLocalizationsSk extends FlutterQuillLocalizations {
   String get pasteLink => 'Vložiť odkaz';
 
   @override
-  String get ok => 'Ok';
+  String get ok => 'Dobre';
 
   @override
   String get selectColor => 'Vybrať farbu';
@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsSk extends FlutterQuillLocalizations {
   String get apply => 'Použiť';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Šesťuholník';
 
   @override
   String get material => 'Materiál';
@@ -309,31 +309,32 @@ class FlutterQuillLocalizationsSk extends FlutterQuillLocalizations {
   String get insertTable => 'Vložiť tabuľku';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Vložiť video';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Pri ukladaní obrázka sa vyskytla neočakávaná chyba. Skúste to znova.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery =>
+      'Obrázok bol uložený do vašej galérie.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Obrázok bol úspešne uložený.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Obrázok bol úspešne stiahnutý.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Otvoriť galériu';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Otvoriť umiestnenie súboru';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Otvoriť súbor';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Obrázok sa nepodarilo uložiť z dôvodu chýbajúceho povolenia';
 }

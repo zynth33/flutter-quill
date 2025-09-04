@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsHr extends FlutterQuillLocalizations {
   String get apply => 'Primijeni';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Heksadecimalno';
 
   @override
   String get material => 'Materijal';

@@ -309,31 +309,31 @@ class FlutterQuillLocalizationsUr extends FlutterQuillLocalizations {
   String get insertTable => 'ٹیبل درج کریں';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'ویڈیو داخل کریں۔';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'تصویر محفوظ کرتے وقت ایک غیر متوقع خرابی پیش آگئی۔ براہ کرم دوبارہ کوشش کریں۔';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'تصویر آپ کی گیلری میں محفوظ ہو گئی۔';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'تصویر کامیابی سے محفوظ ہو گئی۔';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'تصویر کامیابی کے ساتھ ڈاؤن لوڈ ہو گئی۔';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'گیلری کھولیں۔';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'فائل لوکیشن کھولیں۔';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'فائل کھولیں۔';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'اجازت نہ ہونے کی وجہ سے تصویر کو محفوظ نہیں کیا جا سکا';
 }

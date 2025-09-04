@@ -69,7 +69,7 @@ class FlutterQuillLocalizationsId extends FlutterQuillLocalizations {
   String get clear => 'Hapus';
 
   @override
-  String get font => 'Font';
+  String get font => 'Huruf';
 
   @override
   String get search => 'Cari';
@@ -81,10 +81,10 @@ class FlutterQuillLocalizationsId extends FlutterQuillLocalizations {
   String get video => 'Video';
 
   @override
-  String get undo => 'Undo';
+  String get undo => 'Membuka';
 
   @override
-  String get redo => 'Redo';
+  String get redo => 'Mengulangi';
 
   @override
   String get fontFamily => 'Keluarga Font';
@@ -198,16 +198,16 @@ class FlutterQuillLocalizationsId extends FlutterQuillLocalizations {
   String get enterMedia => 'Masukkan Media';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Sunting';
 
   @override
   String get apply => 'Terapkan';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Heksagonal';
 
   @override
-  String get material => 'Material';
+  String get material => 'Bahan';
 
   @override
   String get color => 'Warna';
@@ -308,31 +308,31 @@ class FlutterQuillLocalizationsId extends FlutterQuillLocalizations {
   String get insertTable => 'Sisipkan tabel';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Sisipkan video';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Terjadi kesalahan tak terduga saat menyimpan gambar. Silakan coba lagi.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Gambar disimpan di galeri Anda.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Gambar berhasil disimpan.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Gambar berhasil diunduh.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Buka Galeri';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Buka Lokasi File';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Buka Berkas';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Tidak dapat menyimpan gambar karena tidak memiliki izin';
 }

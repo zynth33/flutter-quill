@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsSv extends FlutterQuillLocalizations {
   String get apply => 'Tillämpa';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Hexagon';
 
   @override
   String get material => 'Material';
@@ -305,31 +305,31 @@ class FlutterQuillLocalizationsSv extends FlutterQuillLocalizations {
   String get insertTable => 'Infoga tabell';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Infoga video';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Ett oväntat fel uppstod när bilden sparades. Försök igen.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Bilden sparad i ditt galleri.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Bilden har sparats.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Bilden har laddats ner.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Öppna galleriet';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Öppna filplats';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Öppna fil';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Kunde inte spara bilden på grund av saknad behörighet';
 }

@@ -306,33 +306,33 @@ class FlutterQuillLocalizationsKu extends FlutterQuillLocalizations {
   String get insertTable => 'دانانی خشتە';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => 'Vîdyoyê têxe';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      'Dema tomarkirina wêneyê çewtiyek neçaverêkirî çêbû. Ji kerema xwe dîsa biceribînin.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => 'Wêne li galeriya we hatî tomarkirin.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => 'Wêne bi serkeftî hat tomarkirin.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => 'Wêne bi serkeftî hate dakêşandin.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => 'Galeriya Vekirî';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => 'Cihê Pelê Veke';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => 'Pelê Veke';
 
   @override
   String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+      'Ji ber nebûna destûrê wêne nehat tomarkirin';
 }
 
 /// The translations for Kurdish (`ku_CKB`).

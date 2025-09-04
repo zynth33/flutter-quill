@@ -78,7 +78,7 @@ class FlutterQuillLocalizationsBs extends FlutterQuillLocalizations {
   String get camera => 'Kamera';
 
   @override
-  String get video => 'Video';
+  String get video => 'Videozapis';
 
   @override
   String get undo => 'Poništi';
@@ -204,7 +204,7 @@ class FlutterQuillLocalizationsBs extends FlutterQuillLocalizations {
   String get apply => 'Primijeni';
 
   @override
-  String get hex => 'Hex';
+  String get hex => 'Heksadecimalno';
 
   @override
   String get material => 'Materijal';

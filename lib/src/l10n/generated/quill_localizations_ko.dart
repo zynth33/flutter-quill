@@ -302,31 +302,30 @@ class FlutterQuillLocalizationsKo extends FlutterQuillLocalizations {
   String get insertTable => '테이블 삽입';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => '비디오 삽입';
 
   @override
   String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+      '이미지를 저장하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도해 주세요.';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => '갤러리에 이미지가 저장되었습니다.';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => '이미지가 성공적으로 저장되었습니다.';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => '이미지가 성공적으로 다운로드되었습니다.';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => '오픈 갤러리';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => '파일 위치 열기';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => '파일 열기';
 
   @override
-  String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+  String get saveImagePermissionDenied => '권한이 없어 이미지를 저장할 수 없습니다.';
 }

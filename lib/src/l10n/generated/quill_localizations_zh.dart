@@ -302,33 +302,31 @@ class FlutterQuillLocalizationsZh extends FlutterQuillLocalizations {
   String get insertTable => '插入表格';
 
   @override
-  String get insertVideo => 'Insert video';
+  String get insertVideo => '插入视频';
 
   @override
-  String get errorUnexpectedSavingImage =>
-      'An unexpected error occurred while saving the image. Please try again.';
+  String get errorUnexpectedSavingImage => '保存图片时出现意外错误。请重试。';
 
   @override
-  String get successImageSavedGallery => 'Image saved to your gallery.';
+  String get successImageSavedGallery => '图像已保存至您的图库。';
 
   @override
-  String get successImageSaved => 'Image saved successfully.';
+  String get successImageSaved => '图像保存成功。';
 
   @override
-  String get successImageDownloaded => 'Image downloaded successfully.';
+  String get successImageDownloaded => '图像下载成功。';
 
   @override
-  String get openGallery => 'Open Gallery';
+  String get openGallery => '打开画廊';
 
   @override
-  String get openFileLocation => 'Open File Location';
+  String get openFileLocation => '打开文件位置';
 
   @override
-  String get openFile => 'Open File';
+  String get openFile => '打开文件';
 
   @override
-  String get saveImagePermissionDenied =>
-      'Couldn’t save the image due to missing permission';
+  String get saveImagePermissionDenied => '由于缺少权限，无法保存图片';
 }
 
 /// The translations for Chinese, as used in China (`zh_CN`).
@@ -627,6 +625,33 @@ class FlutterQuillLocalizationsZhCn extends FlutterQuillLocalizationsZh {
 
   @override
   String get insertTable => '插入表格';
+
+  @override
+  String get insertVideo => '插入视频';
+
+  @override
+  String get errorUnexpectedSavingImage => '保存图片时出现意外错误。请重试。';
+
+  @override
+  String get successImageSavedGallery => '图像已保存至您的图库。';
+
+  @override
+  String get successImageSaved => '图像保存成功。';
+
+  @override
+  String get successImageDownloaded => '图像下载成功。';
+
+  @override
+  String get openGallery => '打开画廊';
+
+  @override
+  String get openFileLocation => '打开文件位置';
+
+  @override
+  String get openFile => '打开文件';
+
+  @override
+  String get saveImagePermissionDenied => '由于缺少权限，无法保存图片';
 }
 
 /// The translations for Chinese, as used in Hong Kong (`zh_HK`).
@@ -1223,4 +1248,31 @@ class FlutterQuillLocalizationsZhTw extends FlutterQuillLocalizationsZh {
 
   @override
   String get insertTable => '插入表格';
+
+  @override
+  String get insertVideo => '插入視頻';
+
+  @override
+  String get errorUnexpectedSavingImage => '儲存圖片時發生意外錯誤。請重試。';
+
+  @override
+  String get successImageSavedGallery => '圖像已儲存至您的圖庫。';
+
+  @override
+  String get successImageSaved => '圖像保存成功。';
+
+  @override
+  String get successImageDownloaded => '圖片下載成功。';
+
+  @override
+  String get openGallery => '打開畫廊';
+
+  @override
+  String get openFileLocation => '開啟文件位置';
+
+  @override
+  String get openFile => '開啟文件';
+
+  @override
+  String get saveImagePermissionDenied => '由於缺少權限，無法儲存圖片';
 }
