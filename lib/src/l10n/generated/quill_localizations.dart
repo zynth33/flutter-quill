@@ -62,6 +62,7 @@ import 'quill_localizations_eu.dart';
 import 'quill_localizations_fa.dart';
 import 'quill_localizations_ff.dart';
 import 'quill_localizations_fi.dart';
+import 'quill_localizations_fil.dart';
 import 'quill_localizations_fj.dart';
 import 'quill_localizations_fr.dart';
 import 'quill_localizations_fy.dart';
@@ -339,6 +340,7 @@ abstract class FlutterQuillLocalizations {
     Locale('fa'),
     Locale('ff'),
     Locale('fi'),
+    Locale('fil'),
     Locale('fj'),
     Locale('fr'),
     Locale('fy'),
@@ -1187,6 +1189,7 @@ class _FlutterQuillLocalizationsDelegate
         'fa',
         'ff',
         'fi',
+        'fil',
         'fj',
         'fr',
         'fy',
@@ -1517,6 +1520,8 @@ FlutterQuillLocalizations lookupFlutterQuillLocalizations(Locale locale) {
       return FlutterQuillLocalizationsFf();
     case 'fi':
       return FlutterQuillLocalizationsFi();
+    case 'fil':
+      return FlutterQuillLocalizationsFil();
     case 'fj':
       return FlutterQuillLocalizationsFj();
     case 'fr':
