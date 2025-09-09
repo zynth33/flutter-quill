@@ -81,7 +81,7 @@ class FlutterQuillLocalizationsSg extends FlutterQuillLocalizations {
   String get video => 'Limo';
 
   @override
-  String get undo => 'Undo';
+  String get undo => 'Zia';
 
   @override
   String get redo => 'Redo';

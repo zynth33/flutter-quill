@@ -28,6 +28,7 @@ import 'quill_localizations_bho.dart';
 import 'quill_localizations_bik.dart';
 import 'quill_localizations_bm.dart';
 import 'quill_localizations_bn.dart';
+import 'quill_localizations_bo.dart';
 import 'quill_localizations_br.dart';
 import 'quill_localizations_bs.dart';
 import 'quill_localizations_bts.dart';
@@ -305,6 +306,7 @@ abstract class FlutterQuillLocalizations {
     Locale('bik'),
     Locale('bm'),
     Locale('bn'),
+    Locale('bo'),
     Locale('br'),
     Locale('bs'),
     Locale('bts'),
@@ -1155,6 +1157,7 @@ class _FlutterQuillLocalizationsDelegate
         'bik',
         'bm',
         'bn',
+        'bo',
         'br',
         'bs',
         'bts',
@@ -1452,6 +1455,8 @@ FlutterQuillLocalizations lookupFlutterQuillLocalizations(Locale locale) {
       return FlutterQuillLocalizationsBm();
     case 'bn':
       return FlutterQuillLocalizationsBn();
+    case 'bo':
+      return FlutterQuillLocalizationsBo();
     case 'br':
       return FlutterQuillLocalizationsBr();
     case 'bs':

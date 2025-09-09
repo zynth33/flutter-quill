@@ -18,7 +18,7 @@ class FlutterQuillLocalizationsHil extends FlutterQuillLocalizations {
   String get selectColor => 'Pilia ang Kolor';
 
   @override
-  String get gallery => 'Gallery';
+  String get gallery => 'Galeriya';
 
   @override
   String get link => 'Link';

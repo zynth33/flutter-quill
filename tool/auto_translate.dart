@@ -6,7 +6,10 @@ import 'package:http/http.dart' as http;
 const inputArb = 'lib/src/l10n/quill_en.arb';
 const outputDir = 'lib/src/l10n';
 const sourceLocale = 'en';
-const googleTranslateApiKey = 'AIzaSyAVA4zzYj72go3r55FdqcMpfXw0Bb01ll8';
+final googleTranslateApiKey = 'AIzaSyDDkbSKSQz5lZ4rMJw3616r4lf0t04XMeU';
+
+/// Force-run only these locales:
+const List<String> forcedLocales = ['bo', 'ug', 'ps']; // Tibetan, Uyghur, Pashto
 
 bool _isMetaKey(String k) => k.startsWith('@') || k == '@@locale';
 
@@ -47,7 +50,7 @@ String mapToGoogleTarget(String locale) {
     case 'sr-Latn':
       return 'sr-Latn';
     default:
-      return locale;
+      return locale; // 'bo', 'ug', 'ps' pass through
   }
 }
 
@@ -168,8 +171,12 @@ Future<void> main() async {
     if (!_isMetaKey(k) && v is String) enStrings[k] = v;
   });
 
-  final targetLocales = await fetchSupportedLanguages();
-  stdout.writeln('Fetched ${targetLocales.length} supported languages');
+  // If you ever want to verify support first, uncomment:
+  // final supported = await fetchSupportedLanguages();
+  // final targetLocales = forcedLocales.where((l) => supported.contains(mapToGoogleTarget(l))).toList();
+
+  final targetLocales = forcedLocales; // run only for Tibetan (bo), Uyghur (ug), Pashto (ps)
+  stdout.writeln('Running for locales: $targetLocales');
 
   for (final locale in targetLocales) {
     if (locale == sourceLocale) continue; // skip EN itself
@@ -212,10 +219,9 @@ Future<void> main() async {
       const chunkSize = 100;
       for (var i = 0; i < protectedTexts.length; i += chunkSize) {
         final chunk = protectedTexts.sublist(
-            i,
-            i + chunkSize > protectedTexts.length
-                ? protectedTexts.length
-                : i + chunkSize);
+          i,
+          i + chunkSize > protectedTexts.length ? protectedTexts.length : i + chunkSize,
+        );
 
         final translated = await translateBatch(chunk, locale);
 

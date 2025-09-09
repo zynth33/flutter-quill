@@ -108,7 +108,7 @@ class FlutterQuillLocalizationsTl extends FlutterQuillLocalizations {
   String get underline => 'Salungguhitan';
 
   @override
-  String get strikeThrough => 'Strike through';
+  String get strikeThrough => 'I-strike through';
 
   @override
   String get inlineCode => 'Inline na code';

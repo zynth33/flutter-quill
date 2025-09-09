@@ -96,7 +96,7 @@ class FlutterQuillLocalizationsKy extends FlutterQuillLocalizations {
   String get bold => 'Bold';
 
   @override
-  String get subscript => 'Subscript';
+  String get subscript => 'Жазылуу';
 
   @override
   String get superscript => 'Суперскрипт';
